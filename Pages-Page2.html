@@ -1,0 +1,3074 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pages-Contact Us</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="./mainStyle2.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <section
+      class="top-bar border-bottom bg-white py-2 d-none d-lg-block ps-lg-5"
+    >
+      <div
+        class="container-fluid px-3 px-lg-4 d-flex justify-content-between align-items-center"
+      >
+        <ul class="nav small">
+          <li class="nav-item">
+            <a class="nav-link p-0 pe-3 text-muted border-end" href="./Pages-Page1.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 px-3 text-muted border-end" href="./Pages-Page3.html"
+              >Careers</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 ps-3 text-muted" href="./Pages-Page5.html">Open a shop</a>
+          </li>
+        </ul>
+
+        <div class="small d-none d-lg-block text-muted">
+          Free shipping for all orders over
+          <span class="fw-bold" style="color: var(--brand-green)">$75.00</span>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 gap-md-3 small text-muted">
+          <div class="d-none d-sm-block">
+            Need help? Call Us:
+            <span class="fw-bold" style="color: var(--brand-green)"
+              >+ 1800 900</span
+            >
+          </div>
+
+          <!-- قائمة اختيار العملة -->
+          <!-- قائمة اختيار اللغة التفاعلية -->
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle border-0 py-0 text-muted d-flex align-items-center gap-1"
+              type="button"
+              id="selectedLanguageBtn"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-en.svg"
+                alt="English"
+                width="16"
+                height="11"
+              />
+              <span>English</span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end shadow-sm border py-2"
+              style="
+                min-width: 140px;
+                border-color: #e5e8ec !important;
+                border-radius: 6px;
+              "
+            >
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                >
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-en.svg"
+                    alt="English"
+                    width="16"
+                    height="11"
+                  />
+                  <span>English</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                >
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-fr.svg"
+                    alt="Français"
+                    width="16"
+                    height="11"
+                  />
+                  <span>Français</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                >
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-es.svg"
+                    alt="Español"
+                    width="16"
+                    height="11"
+                  />
+                  <span>Español</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                >
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-pt.svg"
+                    alt="Português"
+                    width="16"
+                    height="11"
+                  />
+                  <span>Português</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                >
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-cn.svg"
+                    alt="中国人"
+                    width="16"
+                    height="11"
+                  />
+                  <span>中国人</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- قائمة اختيار العملة التفاعلية -->
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle border-0 py-0 text-muted"
+              type="button"
+              id="selectedCurrencyBtn"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              USD
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end shadow-sm border py-2"
+              style="
+                min-width: 110px;
+                border-color: #e5e8ec !important;
+                border-radius: 6px;
+              "
+            >
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >USD</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >EUR</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >AUD</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >SGP</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-flex">
+      <!-- Side Bar -->
+      <aside
+        class="left-nav d-none d-lg-flex flex-column align-items-center py-3 border-end"
+      >
+        <!-- زر القائمة الكاملة (أيقونة المربعات) -->
+        <div class="nav-item-box position-relative">
+          <button
+            type="button"
+            class="nav-icon border-0 bg-transparent"
+            id="megaCategoriesBtn"
+          >
+            <i class="bi bi-grid"></i>
+          </button>
+
+          <!-- الحاوية المزدوجة (القائمة الرئيسية + القوائم الفرعية) -->
+          <div class="mega-categories-panel shadow-sm" id="megaCategoriesPanel">
+            <!-- العمود الأيسر: أسماء الفئات الأساسية -->
+            <ul class="mega-cat-list list-unstyled mb-0">
+              <li class="mega-cat-item active" data-target="cat-computers">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Computers & Accessories
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-phones">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Cell Phones <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-gaming">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Gaming Gadgets <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-watches">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Smart watches <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <li class="mega-cat-item" data-target="cat-wired-headphones">
+                <a
+                  href="./grid-shop-2.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Wired Headphone</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <li class="mega-cat-item" data-target="cat-mouse-keyboard">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Mouse & Keyboard <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-headphones">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Headphone <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-bluetooth">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Bluetooth devices <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <li class="mega-cat-item" data-target="cat-software">
+                <a href="./grid-shop-2.html" class="mega-cat-link">
+                  Cloud Software <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+              <!-- Electric accessories -->
+              <li class="mega-cat-item" data-target="cat-electric">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Electric accessories</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <!-- Mainboard & CPU -->
+              <li class="mega-cat-item" data-target="cat-cpu">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Mainboard & CPU</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <!-- Desktop PC -->
+              <li class="mega-cat-item" data-target="cat-desktop">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Desktop PC</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <!-- Speaker -->
+              <li class="mega-cat-item" data-target="cat-speaker">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Speaker</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <!-- Bluetooth Headphone -->
+              <li class="mega-cat-item" data-target="cat-bt-headphone">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Bluetooth Headphone</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+
+              <!-- Computer Decor -->
+              <li class="mega-cat-item" data-target="cat-decor">
+                <a
+                  href="./grid-shop.html"
+                  class="mega-cat-link d-flex align-items-center justify-content-between"
+                >
+                  <span>Computer Decor</span>
+                  <i class="bi bi-chevron-right ms-auto"></i>
+                </a>
+              </li>
+            </ul>
+
+            <!-- العمود الأيمن: المحتويات الفرعية المتغيرة مع الـ Hover -->
+            <div class="mega-sub-content">
+              <!-- محتوى Computers -->
+              <div class="mega-sub-pane active" id="cat-computers">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Computer Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Computer Cases</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Laptop</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">HDD</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">RAM</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Headphone</a></li>
+                </ul>
+              </div>
+
+              <!-- محتوى Phones -->
+              <div class="mega-sub-pane" id="cat-phones">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Phone Accessories</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Phone Cases</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Postpaid Phones</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Unlocked Phones</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">iPhone</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Samsung Galaxy</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- محتوى Gaming -->
+              <div class="mega-sub-pane" id="cat-gaming">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Wireless Routers</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Cool New Gadgets</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Tech and Gadgets</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Xbox Accessories</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >PlayStation Accessories</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- محتوى Smart Watches -->
+              <div class="mega-sub-pane" id="cat-watches">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Smart Watches</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Fashion Smart Watches</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Smart Bracelets</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Pocket Watches</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mega-sub-pane" id="cat-wired-headphones">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">On-Ear Headphones</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">In-Ear Headphones</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Earbud</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Over-Ear Headphones</a
+                    >
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Other</a></li>
+                </ul>
+              </div>
+              <!-- محتوى Mouse & Keyboard -->
+              <div class="mega-sub-pane" id="cat-mouse-keyboard">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Logitech</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Redragon</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Amazon Basics</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Microsoft</a></li>
+                </ul>
+              </div>
+
+              <!-- محتوى Headphones -->
+              <div class="mega-sub-pane" id="cat-headphones">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">On-Ear Headphones</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">In-Ear Headphones</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">DJ Headphones</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">PC Game Headsets</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- محتوى Bluetooth -->
+              <div class="mega-sub-pane" id="cat-bluetooth">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Car Audio Systems</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Cellphones</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Desktops</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Telephones</a></li>
+                </ul>
+              </div>
+
+              <!-- محتوى Software -->
+              <div class="mega-sub-pane" id="cat-software">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Android</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Linux & Unix</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Windows</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">iPhone & iOS</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 1. محتوى Electric accessories -->
+              <div class="mega-sub-pane" id="cat-electric">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Extension Cords</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Power Strips</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Wall Chargers</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Surge Protectors</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Adapters & Converters</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 2. محتوى Mainboard & CPU -->
+              <div class="mega-sub-pane" id="cat-cpu">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Intel Processors</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">AMD Processors</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Gaming Motherboards</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >CPU Coolers & Fans</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Thermal Paste</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 3. محتوى Desktop PC -->
+              <div class="mega-sub-pane" id="cat-desktop">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >All-in-One Computers</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Gaming Desktops</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Workstations</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Mini PCs</a></li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">PC Towers</a></li>
+                </ul>
+              </div>
+
+              <!-- 4. محتوى Speaker -->
+              <div class="mega-sub-pane" id="cat-speaker">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Bluetooth Speakers</a
+                    >
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Soundbars</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">PC Speakers</a>
+                  </li>
+                  <li><a href="./grid-shop.html" class="dropdown-item py-1">Subwoofers</a></li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Portable Audio</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 5. محتوى Bluetooth Headphone -->
+              <div class="mega-sub-pane" id="cat-bt-headphone">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Wireless Earbuds</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Over-Ear Bluetooth</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Sport & Running Earphones</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >True Wireless (TWS)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Charging Cases</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- 6. محتوى Computer Decor -->
+              <div class="mega-sub-pane" id="cat-decor">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">RGB LED Strips</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Desk Mats & Pads</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1"
+                      >Monitor Light Bars</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Cable Management</a>
+                  </li>
+                  <li>
+                    <a href="./grid-shop.html" class="dropdown-item py-1">Headphone Stands</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Monitors -->
+        <div class="nav-item-box">
+          <a href="#" class="nav-icon"><i class="bi bi-display"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Computer Accessories</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Computer Cases</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Laptop</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">HDD</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">RAM</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Headphone</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. Smart Phones -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-phone"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Phone Accessories</a>
+                </li>
+                <li><a href="./grid-shop.html" class="dropdown-item py-1">Phone Cases</a></li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Postpaid Phones</a>
+                </li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Unlocked Phones</a>
+                </li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Prepaid Phones</a>
+                </li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Prepaid Plans</a>
+                </li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Refurbished Phones</a>
+                </li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Straight Talk</a>
+                </li>
+                <li><a href="./grid-shop.html" class="dropdown-item py-1">iPhone</a></li>
+                <li>
+                  <a href="./grid-shop.html" class="dropdown-item py-1">Samsung Galaxy</a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. Gaming -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-controller"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Wireless Routers</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Cool New Gadgets</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Tech and Gadgets</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1"
+                  >Geek Gifts and Gadgets</a
+                >
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Xbox Accessories</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1"
+                  >PlayStation Accessories</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. Smart Watches -->
+        <div class="nav-item-box">
+          <a href="#" class="nav-icon"><i class="bi bi-smartwatch"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Smart Watches</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Fashion Smart Watches</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Smart Bracelets</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Pocket Watches</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Smart Rings</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Other Watches</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 6. Earphones -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-earbuds"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">On-Ear Headphones</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Earbud & In-Ear</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">DJ Headphones</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">PC Accessories</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">PC Game Headsets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 7. Mouse -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-mouse"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Logitech</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Redragon</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Amazon Basics</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Microsoft</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">MageGee</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 8. Headphones -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-headphones"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Car Audio Systems</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Cellphones</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Desktops</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Gaming Consoles</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Telephones</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 9. Bluetooth -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-bluetooth"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Player Accessories</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Computer Accessories</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Speakers & Audio</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Computer Networking</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Movies & Films</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 10. Cloud -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-cloud-arrow-up"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Android</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Linux & Unix</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Macintosh</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Windows</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">iPhone & iOS</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 11. Chargers -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-plug"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Antenna Toppers</a>
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Automotive Body Armor</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Power Inverter</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Gas Tank Doors</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Hood Scoops & Vents</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 12. CPU -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-cpu"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1"
+                  >Computer CPU Processors</a
+                >
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1"
+                  >Internal Fans & Cooling</a
+                >
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Graphics Cards</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1"
+                  >Network I/O Port Cards</a
+                >
+              </li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Internal Memory Card</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 13. Desktop & Audio -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"
+            ><i class="bi bi-pc-display-horizontal"></i
+          ></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Graphic PC</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Office PC</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Gaming PC</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Server</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 14. Servers -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-hdd-network"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">JBL</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Anker</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Pyle</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Bose</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Logitech</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 15. Bags -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-briefcase"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Backpacks</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Laptop Bags</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Briefcases</a></li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Travel Bags</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 16. Smart Home -->
+        <div class="nav-item-box">
+          <a href="./grid-shop.html" class="nav-icon"><i class="bi bi-lamp"></i></a>
+          <div class="flyout-menu">
+            <ul class="list-unstyled mb-0">
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Smart Lighting</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Plugs & Outlets</a>
+              </li>
+              <li><a href="./grid-shop.html" class="dropdown-item py-1">Smart Sensors</a></li>
+              <li>
+                <a href="./grid-shop.html" class="dropdown-item py-1">Security & Cameras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <div class="flex-grow-1 min-vh-100">
+        <!-- Head Bar -->
+        <header class="border-bottom bg-white py-2 py-lg-3">
+          <div
+            class="container-fluid px-3 px-lg-4 d-flex align-items-center justify-content-between gap-2 gap-lg-3"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <button
+                class="btn border-0 p-0 d-lg-none text-muted fs-4"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#categoriesOffcanvas"
+              >
+                <i class="bi bi-grid-fill"></i>
+              </button>
+
+              <a href="index.html" class="navbar-brand d-inline-block m-0">
+                <img
+                  src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg"
+                  alt="Ecom Logo"
+                  style="height: 38px"
+                />
+              </a>
+            </div>
+
+            <!-- شريط البحث -->
+
+            <div
+              class="search-box flex-grow-1 mx-1 mx-xl-2 d-none d-md-block"
+              style="max-width: 450px"
+            >
+              <div
+                class="input-group position-relative border rounded-3 bg-white"
+              >
+                <div class="dropdown">
+                  <button
+                    class="btn btn-light dropdown-toggle border-0 border-end text-secondary px-3 py-2 bg-light small rounded-start-3"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    aria-expanded="false"
+                  >
+                    All categories
+                  </button>
+
+                  <div
+                    class="dropdown-menu category-dropdown-menu shadow p-3 border-0 mt-2"
+                  >
+                    <div class="mb-2">
+                      <input
+                        type="text"
+                        class="form-control form-control-sm cat-search-input"
+                        placeholder="Search categories..."
+                      />
+                    </div>
+
+                    <div class="category-scroll-list">
+                      <a class="dropdown-item cat-item active" href="#"
+                        >All categories</a
+                      >
+                      <a class="dropdown-item cat-item" href="#"
+                        >Computers Accessories</a
+                      >
+                      <a class="dropdown-item cat-item" href="#">Cell Phones</a>
+                      <a class="dropdown-item cat-item" href="#"
+                        >Gaming Gatgets</a
+                      >
+                      <a class="dropdown-item cat-item" href="#"
+                        >Smart watches</a
+                      >
+                      <a class="dropdown-item cat-item" href="#"
+                        >Wired Headphone</a
+                      >
+                      <a class="dropdown-item cat-item" href="#"
+                        >Mouse Keyboard</a
+                      >
+                      <a class="dropdown-item cat-item" href="#">Headphone</a>
+                      <a class="dropdown-item cat-item" href="#"
+                        >Bluetooth devices</a
+                      >
+                      <a class="dropdown-item cat-item" href="#"
+                        >Cloud Software</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <input
+                  type="text"
+                  class="form-control border-0 shadow-none px-3 rounded-end-3"
+                  placeholder="Search for items..."
+                />
+              </div>
+            </div>
+            
+
+            <nav class="d-none d-xl-flex gap-3 gap-xxl-3">
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Home</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./index.html">Homepage 1</a></li>
+                  <li><a class="dropdown-item" href="./homePage-2.html">Homepage 2</a></li>
+                  <li><a class="dropdown-item" href="./homepage3.final.html">Homepage 3</a></li>
+                  <li><a class="dropdown-item" href="">Homepage 4</a></li>
+                  <li><a class="dropdown-item" href="./HomePage 5.html">Homepage 5</a></li>
+                  <li><a class="dropdown-item" href="./HomePage 6.html">Homepage 6</a></li>
+                  <li><a class="dropdown-item" href="#">Homepage 7</a></li>
+                  <li><a class="dropdown-item" href="./homepage8.html">Homepage 8</a></li>
+                  <li><a class="dropdown-item" href="./homepage9.html">Homepage 9</a></li>
+                  <li><a class="dropdown-item" href="./homepage10.html">Homepage 10</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./grid-shop.html"
+                  data-bs-toggle="dropdown"
+                  >Shop</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./grid-shop.html">Shop Grid</a></li>
+                  <li><a class="dropdown-item" href="./grid-shop-2.html">Shop Grid2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./Shop-List-Left.html">shop list-left sidebar</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Shop-List-Right.html"
+                      >shop list-right sidebar</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="./Shop-FullWidth.html">shop Fullwidth</a></li>
+                  <li><a class="dropdown-item" href="./single-product.html">single ptoduct</a></li>
+                  <li><a class="dropdown-item" href="./single-product-2.html">single ptoduct2</a></li>
+                  <li><a class="dropdown-item" href="./single-product-3.html">single ptoduct3</a></li>
+                  <li><a class="dropdown-item" href="./single-product-4.html">single ptoduct4</a></li>
+                  <li><a class="dropdown-item" href="./shop-cart.html">shop cart</a></li>
+                  <li><a class="dropdown-item" href="./shop-checkout.html">shop checkout</a></li>
+                  <li><a class="dropdown-item" href="./Compare.html">shop compare</a></li>
+                  <li><a class="dropdown-item" href="./wishlist.html">shop wishlist</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./vendorlisting final.html"
+                  data-bs-toggle="dropdown"
+                  >Vendors</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./vendorlisting final.html">Vendors Listing</a></li>
+                  <li><a class="dropdown-item" href="./vendorsingle final.html">Vendors single</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./Pages-Page1.html"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./Pages-Page1.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page2.html">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page3.html">Careers</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./Pages-Page4.html">term and condition</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./Pages-Page5.html">Register</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page6.html">Login</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./blogNoSide.html"
+                  data-bs-toggle="dropdown"
+                  >Blogs</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./blogNoSide.html">Blog Ni sidebar</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./blogRight.html">Blog-Right sidebar</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./Pages-Blog_List.html">Blog list</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./blogBig.html">Blog ctegoty big</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blogSingleLeft.html"
+                      >Blog single- left sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./blogSingleRight.html"
+                      >Blog single-right sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./blogSingleNoSide.html">Blog single-no sidebar</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <a class="nav-link nav-item-link small" href="./Pages-Page2.html">Contact Us</a>
+              </div>
+            </nav>
+
+            <div class="header-actions d-flex align-items-center gap-3">
+              <!-- User -->
+              <a href="#" class="action-btn">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                    fill="#a0b0c0"
+                  />
+                  <path
+                    opacity="0.9"
+                    d="M12.0002 14.5C6.99017 14.5 2.73017 17.86 1.70017 22.42C1.57017 22.99 2.01017 23.5 2.60017 23.5H21.4002C21.9902 23.5 22.4302 22.99 22.3002 22.42C21.2702 17.86 17.0102 14.5 12.0002 14.5Z"
+                    fill="#32537a"
+                  />
+                </svg>
+              </a>
+
+              <!-- Wishlist -->
+              <a href="#" class="action-btn position-relative">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M12 13C7.5 13 4 9.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 3.81 14 5.09C14.7 4.27 15.65 3.67 16.73 3.32C15.36 2.5 13.74 2 12 2C8.92 2 6.5 4.42 6.5 7.5C6.5 10.5 9.5 13 12 13Z"
+                    fill="#32537a"
+                  />
+                </svg>
+                <span class="badge-count">5</span>
+              </a>
+
+              <!-- Cart -->
+              <a href="#" class="action-btn position-relative">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L21.16 4.96C21.41 4.5 21.08 4 20.55 4H5.21L4.27 2H1V4H3L6.6 11.59L5.25 14.04C4.52 15.37 5.48 17 7 17H19V15H7.42C7.29 15 7.17 14.89 7.17 14.75Z"
+                    fill="#32537a"
+                  />
+                </svg>
+                <span class="badge-count">2</span>
+              </a>
+
+              <a href="#" class="action-btn">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="18" cy="6" r="3" fill="#a0b0c0" />
+                  <rect
+                    x="3"
+                    y="15"
+                    width="6"
+                    height="6"
+                    rx="2"
+                    fill="#a0b0c0"
+                  />
+                  <path
+                    d="M11 5H14C14.55 5 15 4.55 15 4C15 3.45 14.55 3 14 3H9C8.45 3 8 3.45 8 4V9C8 9.55 8.45 10 9 10C9.55 10 10 9.55 10 9V7.41L12.29 9.71C12.68 10.1 13.32 10.1 13.71 9.71C14.1 9.32 14.1 8.68 13.71 8.29L11 5Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M15 15V16.59L12.71 14.29C12.32 13.9 11.68 13.9 11.29 14.29C10.9 14.68 10.9 15.32 11.29 15.71L14 19H11C10.45 19 10 19.45 10 20C10 20.55 10.45 21 11 21H16C16.55 21 17 20.55 17 20V15C17 14.45 16.55 14 16 14C15.45 14 15 14.45 15 15Z"
+                    fill="#32537a"
+                  />
+                </svg>
+              </a>
+              <!-- Mobile Menu Toggle Button -->
+              <button
+                class="btn border-0 p-0 d-xl-none text-muted fs-3 ms-1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenuOffcanvas"
+                aria-controls="mobileMenuOffcanvas"
+              >
+                <i class="bi bi-list"></i>
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Search all Gatigores -->
+
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="categoriesOffcanvas"
+          style="width: 290px"
+        >
+          <div class="offcanvas-header border-bottom">
+            <h6 class="offcanvas-title fw-bold text-dark">
+              <i class="bi bi-grid-fill me-2 text-primary"></i> All Categories
+            </h6>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush small">
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-display me-3 text-muted"></i> Monitors &
+                Displays
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-phone me-3 text-muted"></i> Smart Phones
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-controller me-3 text-muted"></i> Gaming &
+                Consoles
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-smartwatch me-3 text-muted"></i> Smart Watches
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-earbuds me-3 text-muted"></i> Earphones
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-mouse me-3 text-muted"></i> Mice & Keyboards
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-headphones me-3 text-muted"></i> Headphones
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-bluetooth me-3 text-muted"></i> Bluetooth
+                Devices
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-cloud-arrow-up me-3 text-muted"></i> Cloud &
+                Networking
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-plug me-3 text-muted"></i> Cables & Chargers
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-cpu me-3 text-muted"></i> Hardware & Chips
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-pc-display-horizontal me-3 text-muted"></i> PC &
+                Audio Systems
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-hdd-network me-3 text-muted"></i> Servers &
+                Storage
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-briefcase me-3 text-muted"></i> Bags & Covers
+              </li>
+              <li class="list-group-item list-group-item-action py-3">
+                <i class="bi bi-lamp me-3 text-muted"></i> Smart Home & Lamps
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-100 py-3 px-4 px-md-5" style="background-color: #f4f7fc">
+          <div class="container-fluid p-0">
+            <nav aria-label="breadcrumb" class="text-start">
+              <ol
+                class="breadcrumb m-0 d-flex align-items-center"
+                style="
+                  font-size: 14px;
+                  font-weight: 500;
+                  font-family: sans-serif;
+                  --bs-breadcrumb-divider: &quot;›&quot;;
+                "
+              >
+                <li class="breadcrumb-item">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="color: #2b4570; font-weight: 600"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="breadcrumb-item ps-2">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="color: #7a8fa9"
+                    >Pages</a
+                  >
+                </li>
+
+                <li
+                  class="breadcrumb-item active ps-2"
+                  aria-current="page"
+                  style="color: #a0aec0"
+                >
+                  Contact
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div class="py-5 px-4 px-md-5 bg-white">
+          <div class="container-fluid p-0 py-3">
+            <div class="row g-5 align-items-stretch">
+              <div
+                class="col-12 col-lg-6 order-1 order-lg-0 text-start d-flex flex-column justify-content-between"
+              >
+                <div class="mb-4">
+                  <h2
+                    class="fw-bold mb-2 fs-1"
+                    style="
+                      color: #2b4570;
+                      font-family: sans-serif;
+                      letter-spacing: -0.5px;
+                    "
+                  >
+                    Contact Us
+                  </h2>
+                  <p
+                    class="mb-0"
+                    style="color: #7a8fa9; font-size: 15px; font-weight: 500"
+                  >
+                    Our team would love to hear from you!
+                  </p>
+                </div>
+
+                <form
+                  action="#"
+                  method="POST"
+                  class="w-100 flex-grow-1 d-flex flex-column justify-content-between"
+                >
+                  <div class="row g-3 mb-3">
+                    <div class="col-12 col-sm-6">
+                      <input
+                        type="text"
+                        class="form-control py-2.5 px-3 rounded-2 text-muted"
+                        placeholder="First name"
+                        style="
+                          border: 1px solid #ced4da;
+                          background-color: #fff;
+                          font-size: 14px;
+                        "
+                      />
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <input
+                        type="text"
+                        class="form-control py-2.5 px-3 rounded-2 text-muted"
+                        placeholder="Last name"
+                        style="
+                          border: 1px solid #ced4da;
+                          background-color: #fff;
+                          font-size: 14px;
+                        "
+                      />
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control py-2.5 px-3 rounded-2 text-muted"
+                      placeholder="Email"
+                      style="
+                        border: 1px solid #ced4da;
+                        background-color: #fff;
+                        font-size: 14px;
+                      "
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      type="tel"
+                      class="form-control py-2.5 px-3 rounded-2 text-muted"
+                      placeholder="Phone number"
+                      style="
+                        border: 1px solid #ced4da;
+                        background-color: #fff;
+                        font-size: 14px;
+                      "
+                    />
+                  </div>
+
+                  <div class="mb-4">
+                    <textarea
+                      class="form-control px-3 py-2.5 rounded-2 text-muted"
+                      placeholder="Message"
+                      rows="5"
+                      style="
+                        border: 1px solid #ced4da;
+                        background-color: #fff;
+                        font-size: 14px;
+                        resize: vertical;
+                        min-height: 120px;
+                      "
+                    ></textarea>
+                  </div>
+
+                  <div>
+                    <button
+                      type="submit"
+                      class="btn text-white fw-bold px-4 py-2.5 rounded-2 transition-all border-0"
+                      style="
+                        background-color: #2b4570;
+                        font-size: 14px;
+                        letter-spacing: 0.3px;
+                      "
+                    >
+                      Send message
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-12 col-lg-6 order-0 order-lg-1">
+                <div
+                  class="w-100 h-100 rounded-3 overflow-hidden border"
+                  style="border-color: #e2eaf8; min-height: 400px"
+                >
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325467.51371614134!2d-73.98947743776016!3d40.72209526768085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1svi!2s!4v1664373110059!5m2!1svi!2s"
+                    class="w-100 h-100 border-0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    style="display: block"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="py-5 px-4 px-md-5 bg-white border-top"
+          style="border-color: #e2eaf8 !important"
+        >
+          <div class="container-fluid p-0 py-2">
+            <div class="row g-4 align-items-start text-start">
+              <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                <h2
+                  class="fw-bold mb-2 fs-2"
+                  style="
+                    color: #2b4570;
+                    font-family: sans-serif;
+                    letter-spacing: -0.5px;
+                  "
+                >
+                  Visit our stores
+                </h2>
+                <p
+                  class="mb-4"
+                  style="color: #7a8fa9; font-size: 14.5px; font-weight: 500"
+                >
+                  Find us at these locations
+                </p>
+                <a
+                  href="#"
+                  class="btn text-white fw-semibold px-4 py-2 rounded-2 transition-all border-0"
+                  style="background-color: #2b4570; font-size: 14px"
+                >
+                  View map
+                </a>
+              </div>
+
+              <div class="col-12 col-lg-9">
+                <div
+                  class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-x-4 g-y-5"
+                >
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Melbourne
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  2: Sydney -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Sydney
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  3: Bangkok -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Bangkok
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  4: San Francisco -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      San Francisco
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  5: Sweden -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Sweden
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  6: Seoul -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Seoul
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  7: Byron Bay -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Byron Bay
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  8: Ha Noi -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Ha Noi
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+
+                  <!--  9: Paris -->
+                  <div class="col mb-2">
+                    <h5
+                      class="fw-bold mb-1"
+                      style="color: #2b4570; font-size: 16.5px"
+                    >
+                      Paris
+                    </h5>
+                    <address
+                      class="mb-0 lh-base"
+                      style="
+                        color: #5c728d;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                      "
+                    >
+                      205 North Michigan Avenue, Suite 810<br />
+                      Chicago, 60601, USA
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="py-5 mt-3 mb-3 px-4 px-md-5"
+          style="background-color: #f4f7fc"
+        >
+          <div class="container-fluid ps-5 ms-5 me-5 pe-5 py-1">
+            <div class="row g-1 align-items-center text-center">
+              <div class="col-12 col-md-6 col-lg-3">
+                <h2
+                  class="fw-bold mb-2 fs-2 text-start"
+                  style="color: #2b4570; line-height: 1.3"
+                >
+                  We'd love to hear from you
+                </h2>
+                <p class="text-muted fs-6 fw-normal" style="color: #4c6a9c">
+                  Chat with our friendly team
+                </p>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 ps-lg-4">
+                <div class="mb-3">
+                  <i
+                    class="bi bi-chat-left-text"
+                    style="font-size: 2.2rem; color: #2b4570"
+                  ></i>
+                </div>
+                <h4 class="fw-bold mb-2 fs-3" style="color: #2b4570">
+                  Chat to sales
+                </h4>
+                <p class="text-muted mb-1 fs-6">Speak to our team.</p>
+                <a
+                  href="mailto:sales@ecom.com"
+                  class="text-decoration-none fw-normal fs-6"
+                  style="color: #2b4570"
+                  >sales@ecom.com</a
+                >
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 ps-lg-4">
+                <div class="mb-3">
+                  <i
+                    class="bi bi-telephone"
+                    style="font-size: 2.2rem; color: #2b4570"
+                  ></i>
+                </div>
+                <h4 class="fw-bold mb-2 fs-3" style="color: #2b4570">
+                  Call us
+                </h4>
+                <p class="text-muted mb-1 fs-6">Mon-Fri from 8am to 5pm</p>
+                <a
+                  href="tel:+15550000000"
+                  class="text-decoration-none fw-normal fs-6"
+                  style="color: #2b4570"
+                  >+1(555)000-0000</a
+                >
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3 ps-lg-4">
+                <div class="mb-3">
+                  <i
+                    class="bi bi-map"
+                    style="font-size: 2.2rem; color: #2b4570"
+                  ></i>
+                </div>
+                <h4 class="fw-bold mb-2 fs-3" style="color: #2b4570">
+                  Visit us
+                </h4>
+                <p class="text-muted mb-1 fs-6">Visit our office</p>
+                <address class="mb-0 text-muted lh-base fw-normal fs-6">
+                  205 North Michigan Avenue,<br />
+                  Suite 810<br />
+                  Chicago, 60601, USA
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-4 px-3 px-lg-5 bg-white">
+          <div class="container-fluid">
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3"
+            >
+              <div class="col">
+                <div
+                  class="d-flex align-items-center p-3 border rounded bg-white h-100 shadow-sm-hover"
+                >
+                  <div class="me-3 fs-2 text-primary">
+                    <img
+                      src="./images/delivery.svg"
+                      alt=""
+                      class="img-fluid text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h6
+                      class="fw-bold mb-1"
+                      style="color: #4a607a; font-size: 17px"
+                    >
+                      Free Delivery
+                    </h6>
+                    <p class="mb-0 text-muted" style="font-size: 14px">
+                      From all orders over $10
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="d-flex align-items-center p-3 border rounded bg-white h-100 shadow-sm-hover"
+                >
+                  <div class="me-3 fs-2 text-primary">
+                    <img
+                      src="./images/support.svg"
+                      alt=""
+                      class="img-fluid text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h6
+                      class="fw-bold mb-1"
+                      style="color: #4a607a; font-size: 17px"
+                    >
+                      Support 24/7
+                    </h6>
+                    <p class="mb-0 text-muted" style="font-size: 14px">
+                      Shop with an expert
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="d-flex align-items-center p-3 border rounded bg-white h-100 shadow-sm-hover"
+                >
+                  <div class="me-3 fs-2 text-primary">
+                    <img
+                      src="./images/Gift.svg"
+                      alt=""
+                      class="img-fluid text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h6
+                      class="fw-bold mb-1"
+                      style="color: #4a607a; font-size: 17px"
+                    >
+                      Gift voucher
+                    </h6>
+                    <p class="mb-0 text-muted" style="font-size: 14px">
+                      Refer a friend
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="d-flex align-items-center p-3 border rounded bg-white h-100 shadow-sm-hover"
+                >
+                  <div class="me-3 fs-2 text-primary">
+                    <img
+                      src="./images/return.svg"
+                      alt=""
+                      class="img-fluid text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h6
+                      class="fw-bold mb-1"
+                      style="color: #4a607a; font-size: 17px"
+                    >
+                      Return & Refund
+                    </h6>
+                    <p class="mb-0 text-muted" style="font-size: 14px">
+                      Free return over $200
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div
+                  class="d-flex align-items-center p-3 border rounded bg-white h-100 shadow-sm-hover"
+                >
+                  <div class="me-3 fs-2 text-primary">
+                    <img
+                      src="./images/secure.svg"
+                      alt=""
+                      class="img-fluid text-primary"
+                    />
+                  </div>
+                  <div>
+                    <h6
+                      class="fw-bold mb-1"
+                      style="color: #4a607a; font-size: 17px"
+                    >
+                      Secure payment
+                    </h6>
+                    <p class="mb-0 text-muted" style="font-size: 14px">
+                      100% Protected
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          class="py-5 px-1 px-lg-5 text-white overflow-hidden position-relative"
+          style="
+            background-color: #061a40;
+            background-image: url(&quot;https://alithemes.com&quot;);
+            background-size: cover;
+            background-position: center;
+            min-height: 240px;
+          "
+        >
+          <div class="container-fluid position-relative mt-4">
+            <div class="row align-items-center">
+
+              <div
+                class="col-12 col-md-6 text-center text-md-start py-2"
+                style="z-index: 5"
+              >
+                <h2
+                  class="fw-bold mb-3 display-6 fs-md-2"
+                  style="letter-spacing: -0.5px"
+                >
+                  Subscribe & Get
+                  <span style="color: #ff9933">10% </span>Discount
+                </h2>
+                <p class="mb-0 text-white fs-4">
+                  Get E-mail updates about our latest shop and
+                  <span class="text-white fw-semibold">special offers.</span>
+                </p>
+              </div>
+
+
+              <div
+                class="col-12 col-md-6 d-flex justify-content-md-start align-items-center"
+                style="z-index: 10"
+              >
+                <div class="input-group shadow-sm" style="max-width: 390px">
+                  <input
+                    type="email"
+                    class="form-control border-0 py-3 px-3 bg-white"
+                    placeholder="Your email Address"
+                    aria-label="Your email Address"
+                    style="font-size: 14px; border-radius: 4px 0 0 4px"
+                  />
+                  <button
+                    class="btn border-0 fw-bold text-white px-4"
+                    type="button"
+                    style="
+                      background-color: #ff9933;
+                      border-radius: 0 4px 4px 0;
+                      font-size: 14px;
+                    "
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="d-none d-md-block position-absolute end-0"
+                style="
+                  bottom: -30px;
+                  width: auto;
+                  max-width: 40%;
+                  z-index: 1;
+                  pointer-events: none;
+                "
+              >
+                <img
+                  src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/bg-newsletter.svg"
+                  alt="Devices"
+                  class="img-fluid"
+                  style="max-height: 230px; width: auto; object-fit: contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div
+          class="py-5 px-3 px-lg-5"
+          style="background-color: #f0f4f8; font-size: 13.5px; color: #4a607a"
+        >
+          <div class="container-fluid">
+            <div class="row flex-wrap g-4">
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h5 class="fw-bold mb-4 fs-4" style="color: #0a3a60">
+                  Contact
+                </h5>
+                <p class="mb-3" style="font-size: 16px">
+                  <strong style="color: #4a607a">Address:</strong> 502 New
+                  Design Str, Melbourne, San Francisco, CA 94110, United States
+                </p>
+                <p class="mb-3" style="font-size: 16px">
+                  <strong style="color: #4a607a">Phone:</strong> (+01)
+                  123-456-789
+                </p>
+                <p class="mb-3" style="font-size: 16px">
+                  <strong style="color: #4a607a">E-mail:</strong>
+                  <a
+                    href="mailto:contact@ecom-market.com"
+                    class="text-decoration-none text-reset"
+                    >contact@ecom-market.com</a
+                  >
+                </p>
+                <p class="mb-5" style="font-size: 16px">
+                  <strong style="color: #4a607a">Hours:</strong> 8:00 - 17:00,
+                  Mon - Sat
+                </p>
+
+
+                <div class="d-flex gap-2 mt-4">
+                  <a
+                    href="#"
+                    class="btn d-inline-flex align-items-center justify-content-center rounded-circle p-0"
+                    style="
+                      background-color: #dce4ec;
+                      width: 32px;
+                      height: 32px;
+                      color: #4a607a;
+                    "
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="btn d-inline-flex align-items-center justify-content-center rounded-circle p-0"
+                    style="
+                      background-color: #dce4ec;
+                      width: 32px;
+                      height: 32px;
+                      color: #4a607a;
+                    "
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="btn d-inline-flex align-items-center justify-content-center rounded-circle p-0"
+                    style="
+                      background-color: #dce4ec;
+                      width: 32px;
+                      height: 32px;
+                      color: #4a607a;
+                    "
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="btn d-inline-flex align-items-center justify-content-center rounded-circle p-0"
+                    style="
+                      background-color: #dce4ec;
+                      width: 32px;
+                      height: 32px;
+                      color: #4a607a;
+                    "
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <h5 class="fw-bold mb-3 fs-4" style="color: #0a3a60">
+                  Make Money with Us
+                </h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Mission & Vision</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Our Team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Careers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Press & Media</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Advertising</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Testimonials</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <h5
+                  class="fw-bold mb-3 fs-4"
+                  style="color: #0a3a60; font-size: 16px"
+                >
+                  Company
+                </h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Our Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Plans & Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Knowledge Base</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Cookie Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Office Center</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      News & Events</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                <h5
+                  class="fw-bold mb-3 fs-4"
+                  style="color: #0a3a60; font-size: 16px"
+                >
+                  My account
+                </h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      FAQs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Editor Help</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Community</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Live Chatting</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Contact Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="fs-6 text-decoration-none text-reset opacity-75 opacity-100-hover"
+                      ><i
+                        class="bi bi-caret-right-fill text-muted small me-1"
+                      ></i>
+                      Support Center</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <h5
+                  class="fw-bold mb-3 fs-4"
+                  style="color: #0a3a60; font-size: 16px"
+                >
+                  App & Payment
+                </h5>
+                <p class="mb-3 opacity-90 fs-6">
+                  Download our Apps and get extra 15% Discount on your first
+                  Order...!
+                </p>
+
+                <div class="d-flex flex-column gap-2 mb-4">
+                  <a href="#"
+                    ><img
+                      src="./images/appstore.png"
+                      alt="Available on the App Store"
+                      style="height: 34px; width: auto"
+                  /></a>
+
+                  <a href="#"
+                    ><img
+                      src="./images/google-play.png"
+                      alt="Get it on Google play"
+                      style="height: 34px; width: auto"
+                  /></a>
+                </div>
+
+                <p class="mb-2 opacity-90 fs-5">Secured Payment Gateways</p>
+                <div class="d-flex gap-1 align-items-center flex-wrap">
+                  <img
+                    src="./images/visa-method.png"
+                    alt="Visa"
+                    style="height: 33px; width: auto; object-fit: contain"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="mt-4 bg-white pt-4 pb-4 px-3 px-lg-5">
+          <div class="container-fluid">
+           
+            <div
+              class="d-flex flex-column flex-md-row align-items-start align-items-md-center border-bottom pb-3 mb-4 gap-3 gap-md-4"
+              style="font-size: 13px"
+            >
+              <!-- مجموعة الشعار باللون الكحلي المتناسق -->
+              <a
+                href="#"
+                class="d-flex align-items-center text-decoration-none fw-bold text-nowrap"
+                style="color: #0a3a60"
+              >
+                <img
+                  src="./images/logo-2.svg"
+                  alt="Ecom Logo"
+                  class="me-2"
+                  style="object-fit: contain"
+                />
+
+              </a>
+
+              <div class="d-flex flex-wrap gap-3 gap-lg-4 ms-md-4 pt-md-2">
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none opacity-75 opacity-100-hover"
+                  >EcomMarket.com</a
+                >
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none opacity-75 opacity-100-hover"
+                  >Ecom Partners</a
+                >
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none opacity-75 opacity-100-hover"
+                  >Ecom Bussiness</a
+                >
+                <a
+                  href="#"
+                  class="text-secondary text-decoration-none opacity-75 opacity-100-hover"
+                  >Ecom Factory</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-column flex-md-row align-items-start mb-4 gap-2 gap-md-0"
+              style="font-size: 13px"
+            >
+              <div class="fw-bold text-dark pe-3 fs-5">Electronic:</div>
+
+              <div
+                class="mt-2 d-flex flex-wrap align-items-center row-gap-2 column-gap-2 flex-grow-1"
+              >
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Cell Phones</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Headphones</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Television & Video</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Game Controller</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Apple Watch</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >HTC</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Ipad</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Keyboard</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Samsung</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Wireless Speaker</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Samsung Galaxy</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Gaming Mouse</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >eBook Readers</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Service Plans</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Home Audio</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Office Electronics</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Lenovo</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Macbook Pro M1</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >HD Videos Player</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-column flex-md-row align-items-start mb-4 gap-2 gap-md-0"
+              style="font-size: 13px"
+            >
+              <div class="fw-bold text-dark pe-3 fs-5">Furniture:</div>
+
+              <div
+                class="mt-2 d-flex flex-wrap align-items-center row-gap-2 column-gap-2 flex-grow-1"
+              >
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Sofa</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Chair</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Dining Table</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Living Room</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Table Lamp</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Night Stand</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Computer Desk</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Bar Table</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Pillow</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Radio</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Clock</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Bad Room</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Stool</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Television</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >wardrobe</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Living Room Tables</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Dressers</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Patio Sofas</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Nursery</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Kitchen</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Accent Furniture</a
+                >
+                <span class="text-muted opacity-50">|</span>
+                <a href="#" class="text-decoration-none" style="color: #0e5997"
+                  >Replacement Parts</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-3 border-top gap-3"
+              style="color: #4a607a; font-size: 13px"
+            >
+              <div class="text-center text-md-start">
+                Copyright © 2022 Ecom Market. All rights reserved.
+              </div>
+
+              <div
+                class="d-flex align-items-center flex-wrap justify-content-center gap-3"
+              >
+                <div class="d-flex gap-3 flex-wrap justify-content-center">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="color: #4a607a"
+                    >Conditions of Use</a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="color: #4a607a"
+                    >Privacy Notice</a
+                  >
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    style="color: #4a607a"
+                    >Interest-Based Ads</a
+                  >
+                </div>
+
+                <a
+                  href="#"
+                  class="btn d-inline-flex align-items-center justify-content-center rounded-circle text-white p-0 shadow-sm"
+                  style="
+                    background-color: #3b4a6b;
+                    width: 40px;
+                    height: 40px;
+                    min-width: 40px;
+                  "
+                  aria-label="Scroll to top"
+                >
+                  <i class="bi bi-arrow-up fs-5"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+
+    <!-- For Mobil Disply -->
+
+    <div
+      class="offcanvas offcanvas-end mobile-menu-drawer"
+      tabindex="-1"
+      id="mobileMenuOffcanvas"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <!-- Offcanvas Header -->
+      <div class="offcanvas-header border-bottom py-3 px-4">
+        <a
+          href="index.html"
+          class="d-flex align-items-center gap-2 text-decoration-none"
+        >
+          <img
+            src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg"
+            alt="Ecom"
+            height="34"
+          />
+        </a>
+      </div>
+
+      <!-- Offcanvas Body -->
+      <div class="offcanvas-body px-4 py-3">
+        <!-- Navigation Accordion -->
+        <div class="accordion accordion-flush" id="mobileNavAccordion">
+          <!-- Home -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navHome"
+              >
+                Home
+              </button>
+            </h2>
+            <div
+              id="navHome"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion"
+            >
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li>
+                  <a href="index.html" class="mobile-sublink">Homepage 1</a>
+                </li>
+                <li>
+                  <a href="index-2.html" class="mobile-sublink">Homepage 2</a>
+                </li>
+                <li>
+                  <a href="index-3.html" class="mobile-sublink">Homepage 3</a>
+                </li>
+                <li>
+                  <a href="index-4.html" class="mobile-sublink">Homepage 4</a>
+                </li>
+                <li>
+                  <a href="index-5.html" class="mobile-sublink">Homepage 5</a>
+                </li>
+                <li>
+                  <a href="index-6.html" class="mobile-sublink">Homepage 6</a>
+                </li>
+                <li>
+                  <a href="index-7.html" class="mobile-sublink">Homepage 7</a>
+                </li>
+                <li>
+                  <a href="index-8.html" class="mobile-sublink">Homepage 8</a>
+                </li>
+                <li>
+                  <a href="index-9.html" class="mobile-sublink">Homepage 9</a>
+                </li>
+                <li>
+                  <a href="index-10.html" class="mobile-sublink">Homepage 10</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Shop -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navShop"
+              >
+                Shop
+              </button>
+            </h2>
+            <div
+              id="navShop"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion"
+            >
+              <ul class="dropdown-menu shadow-sm border-0">
+                <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="#">Shop Grid2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">shop list-left sidebar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">shop list-right sidebar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">shop Fullwidth</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct2</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct3</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct4</a></li>
+                <li><a class="dropdown-item" href="#">shop cart</a></li>
+                <li><a class="dropdown-item" href="#">shop checkout</a></li>
+                <li><a class="dropdown-item" href="#">shop compare</a></li>
+                <li><a class="dropdown-item" href="#">shop wishlist</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Vendors -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navVendors"
+              >
+                Vendors
+              </button>
+            </h2>
+            <div
+              id="navVendors"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion"
+            >
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li>
+                  <a class="dropdown-item py-1 text-muted" href="#"
+                    >Vendors Listing</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item py-1 text-muted" href="#"
+                    >Vendor single</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pages -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navPages"
+              >
+                Pages
+              </button>
+            </h2>
+            <div
+              id="navPages"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion"
+            >
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">term and condition</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">ERROR 404</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Blog -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navBlog"
+              >
+                Blog
+              </button>
+            </h2>
+            <div
+              id="navBlog"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion"
+            >
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li><a class="dropdown-item" href="#">Blog Ni sidebar</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog-Right sidebar </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Blog list </a></li>
+                <li><a class="dropdown-item" href="#">Blog ctegoty big</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single- left sidebar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single-right sidebar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog single-no sidebar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact Us (رابط مباشر بدون سهم لأنه لا يحوي قائمة منسدلة) -->
+          <div class="py-2">
+            <a class="nav-link px-0 fw-semibold text-dark" href="#"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+
+        <hr class="my-4 text-muted opacity-25" />
+
+        <!-- User Profile Section -->
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <img
+            src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/user-1.png"
+            alt="Steven"
+            class="rounded-circle"
+            width="46"
+            height="46"
+            style="object-fit: cover"
+          />
+          <div>
+            <h6 class="mb-0 fw-bold" style="color: #2b5680">Hello Steven !</h6>
+            <small class="text-muted" style="font-size: 0.78rem"
+              >You have 3 new messages</small
+            >
+          </div>
+        </div>
+
+        <!-- Quick User Links (2 Columns) -->
+        <div class="row g-2 mb-4" style="font-size: 0.85rem">
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Account</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Wishlist</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Order Tracking</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Setting</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Orders</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Sign Out</a>
+          </div>
+        </div>
+
+        <hr class="my-3 text-muted opacity-25" />
+
+        <!-- Promo Banner Card -->
+        <div
+          class="promo-card p-3 rounded-3 mb-4"
+          style="background-color: #e4efe7"
+        >
+          <small class="text-muted d-block mb-1" style="font-size: 0.8rem"
+            >Starting from $899</small
+          >
+          <h6 class="fw-bold mb-1" style="color: #1e3a8a">
+            iPhone 12 Pro 128Gb
+          </h6>
+          <p class="small text-muted mb-2">Special Sale</p>
+          <a
+            href="#"
+            class="text-decoration-none fw-bold small text-info d-inline-flex align-items-center gap-1 mb-2"
+          >
+            LEARN MORE <i class="bi bi-caret-right-fill"></i>
+          </a>
+          <div class="text-center mt-2">
+            <img
+              src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-1.png"
+              alt="iPhone"
+              class="img-fluid"
+              style="max-height: 140px"
+            />
+          </div>
+        </div>
+
+        <!-- Footer Copyright -->
+        <div class="text-muted" style="font-size: 0.75rem; line-height: 1.5">
+          <div>Copyright 2022 © Ecom - Marketplace Template.</div>
+          <div>
+            Designed by
+            <a href="#" class="text-decoration-none text-info">AliThemes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- For Language -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".lang-option").forEach(function (item) {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            const imgEl = this.querySelector("img");
+            const textEl = this.querySelector("span");
+            const mainBtn = document.getElementById("selectedLanguageBtn");
+
+            if (mainBtn && imgEl && textEl) {
+              const btnImg = mainBtn.querySelector("img");
+              const btnText = mainBtn.querySelector("span");
+              if (btnImg) btnImg.setAttribute("src", imgEl.getAttribute("src"));
+              if (btnText) btnText.textContent = textEl.textContent;
+            }
+          });
+        });
+
+        document.querySelectorAll(".curr-option").forEach(function (item) {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            const selectedCurrency = this.textContent.trim();
+            const currBtn = document.getElementById("selectedCurrencyBtn");
+
+            if (currBtn) {
+              const textSpan = currBtn.querySelector("span");
+              if (textSpan) {
+                textSpan.textContent = selectedCurrency;
+              } else {
+                currBtn.textContent = selectedCurrency;
+              }
+            }
+          });
+        });
+
+        const megaBtn = document.getElementById("megaCategoriesBtn");
+        const megaPanel = document.getElementById("megaCategoriesPanel");
+        const catItems = document.querySelectorAll(".mega-cat-item");
+        const subPanes = document.querySelectorAll(".mega-sub-pane");
+
+        if (megaBtn && megaPanel) {
+          megaBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            megaPanel.classList.toggle("show");
+          });
+
+          catItems.forEach(function (item) {
+            item.addEventListener("mouseenter", function () {
+              catItems.forEach((el) => el.classList.remove("active"));
+              subPanes.forEach((pane) => pane.classList.remove("active"));
+
+              this.classList.add("active");
+              const targetId = this.getAttribute("data-target");
+              const targetPane = document.getElementById(targetId);
+              if (targetPane) {
+                targetPane.classList.add("active");
+              }
+            });
+          });
+
+          document.addEventListener("click", function (e) {
+            if (!megaPanel.contains(e.target) && !megaBtn.contains(e.target)) {
+              megaPanel.classList.remove("show");
+            }
+          });
+        }
+      });
+
+      const seeMoreBtn = document.getElementById("seeMoreBtn");
+      const moreCategories = document.getElementById("moreCategories");
+
+      if (seeMoreBtn && moreCategories) {
+        moreCategories.addEventListener("show.bs.collapse", function () {
+          seeMoreBtn.querySelector(".btn-text").textContent = "See Less";
+          seeMoreBtn.classList.add("open");
+        });
+
+        moreCategories.addEventListener("hide.bs.collapse", function () {
+          seeMoreBtn.querySelector(".btn-text").textContent = "See More";
+          seeMoreBtn.classList.remove("open");
+        });
+      }
+    </script>
+  </body>
+</html>

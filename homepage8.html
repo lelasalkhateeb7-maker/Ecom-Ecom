@@ -1,0 +1,5028 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home8</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./homepage8.css" />
+  </head>
+
+  <body class="bg-light">
+    <!-- الشريط يلي فوق الصغير-->
+    <section
+      class="top-bar border-bottom bg-white py-2 d-none d-lg-block ps-lg-5">
+      <div
+        class="container-fluid px-3 px-lg-4 d-flex justify-content-between align-items-center">
+        <ul class="nav small">
+          <li class="nav-item">
+            <a class="nav-link p-0 pe-3 text-muted border-end" href="./Pages-Page1.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 px-3 text-muted border-end" href="./Pages-Page3.html"
+              >Careers</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 ps-3 text-muted" href="./Pages-Page5.html">Open a shop</a>
+          </li>
+        </ul>
+
+        <div class="small d-none d-lg-block text-muted">
+          Free shipping for all orders over
+          <span class="fw-bold" style="color: var(--brand-green)">$75.00</span>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 gap-md-3 small text-muted">
+          <div class="d-none d-sm-block">
+            Need help? Call Us:
+            <span class="fw-bold" style="color: var(--brand-green)"
+              >+ 1800 900</span
+            >
+          </div>
+
+          <!-- قائمة اختيار اللغة التفاعلية -->
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle border-0 py-0 text-muted d-flex align-items-center gap-1"
+              type="button"
+              id="selectedLanguageBtn"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img
+                src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-en.svg"
+                alt="English"
+                width="16"
+                height="11" />
+              <span>English</span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end shadow-sm border py-2"
+              style="
+                min-width: 140px;
+                border-color: #e5e8ec !important;
+                border-radius: 6px;
+              ">
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem">
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-en.svg"
+                    alt="English"
+                    width="16"
+                    height="11" />
+                  <span>English</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem">
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-fr.svg"
+                    alt="Français"
+                    width="16"
+                    height="11" />
+                  <span>Français</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem">
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-es.svg"
+                    alt="Español"
+                    width="16"
+                    height="11" />
+                  <span>Español</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem">
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-pt.svg"
+                    alt="Português"
+                    width="16"
+                    height="11" />
+                  <span>Português</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item lang-option d-flex align-items-center gap-2 py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem">
+                  <img
+                    src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/flag-cn.svg"
+                    alt="中国人"
+                    width="16"
+                    height="11" />
+                  <span>中国人</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- قائمة اختيار العملة التفاعلية -->
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle border-0 py-0 text-muted"
+              type="button"
+              id="selectedCurrencyBtn"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              USD
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end shadow-sm border py-2"
+              style="
+                min-width: 110px;
+                border-color: #e5e8ec !important;
+                border-radius: 6px;
+              ">
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >USD</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >EUR</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >AUD</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item curr-option py-1 px-3 text-secondary"
+                  href="javascript:void(0)"
+                  style="font-size: 0.88rem"
+                  >SGP</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex-grow-1">
+      <!-- شريط التنقل الأساسي -->
+      <header class="border-bottom bg-white py-2 py-lg-3">
+        <div
+          class="container-fluid px-3 px-lg-4 d-flex align-items-center justify-content-between gap-2 gap-lg-3">
+          <div class="d-flex align-items-center gap-2">
+            <a href="index.html" class="navbar-brand d-inline-block m-0">
+              <img
+                src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg"
+                alt="Ecom Logo"
+                style="height: 38px; padding-left: 50px;" />
+            </a>
+          </div>
+
+          <!-- شريط البحث -->
+          <div
+            class="search-box flex-grow-1 mx-2 mx-xl-4 d-none d-md-block"
+            style="max-width: 450px">
+            <div
+              class="input-group position-relative border rounded-3 bg-white">
+              <div class="dropdown">
+                <button
+                  class="btn btn-light dropdown-toggle border-0 border-end text-secondary px-3 py-2 bg-light small rounded-start-3"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false">
+                  All categories
+                </button>
+
+                <div
+                  class="dropdown-menu category-dropdown-menu shadow p-3 border-0 mt-2">
+                  <div class="mb-2">
+                    <input
+                      type="text"
+                      class="form-control form-control-sm cat-search-input"
+                      placeholder="Search categories..." />
+                  </div>
+
+                  <div class="category-scroll-list">
+                    <a class="dropdown-item cat-item active" href="#"
+                      >All categories</a
+                    >
+                    <a class="dropdown-item cat-item" href="#"
+                      >Computers Accessories</a
+                    >
+                    <a class="dropdown-item cat-item" href="#">Cell Phones</a>
+                    <a class="dropdown-item cat-item" href="#"
+                      >Gaming Gatgets</a
+                    >
+                    <a class="dropdown-item cat-item" href="#">Smart watches</a>
+                    <a class="dropdown-item cat-item" href="#"
+                      >Wired Headphone</a
+                    >
+                    <a class="dropdown-item cat-item" href="#"
+                      >Mouse Keyboard</a
+                    >
+                    <a class="dropdown-item cat-item" href="#">Headphone</a>
+                    <a class="dropdown-item cat-item" href="#"
+                      >Bluetooth devices</a
+                    >
+                    <a class="dropdown-item cat-item" href="#"
+                      >Cloud Software</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <input
+                type="text"
+                class="form-control border-0 shadow-none px-3 rounded-end-3"
+                placeholder="Search for items..." />
+            </div>
+          </div>
+
+          <nav class="d-none d-xl-flex flex-wrap gap-3 gap-xxl-4">
+            <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Home</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./index.html">Homepage 1</a></li>
+                  <li><a class="dropdown-item" href="./homePage-2.html">Homepage 2</a></li>
+                  <li><a class="dropdown-item" href="./homepage3.final.html">Homepage 3</a></li>
+                  <li><a class="dropdown-item" href="">Homepage 4</a></li>
+                  <li><a class="dropdown-item" href="./HomePage 5.html">Homepage 5</a></li>
+                  <li><a class="dropdown-item" href="./HomePage 6.html">Homepage 6</a></li>
+                  <li><a class="dropdown-item" href="#">Homepage 7</a></li>
+                  <li><a class="dropdown-item" href="./homepage8.html">Homepage 8</a></li>
+                  <li><a class="dropdown-item" href="./homepage9.html">Homepage 9</a></li>
+                  <li><a class="dropdown-item" href="./homepage10.html">Homepage 10</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./grid-shop.html"
+                  data-bs-toggle="dropdown"
+                  >Shop</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./grid-shop.html">Shop Grid</a></li>
+                  <li><a class="dropdown-item" href="./grid-shop-2.html">Shop Grid2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./Shop-List-Left.html">shop list-left sidebar</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Shop-List-Right.html"
+                      >shop list-right sidebar</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="./Shop-FullWidth.html">shop Fullwidth</a></li>
+                  <li><a class="dropdown-item" href="./single-product.html">single ptoduct</a></li>
+                  <li><a class="dropdown-item" href="./single-product-2.html">single ptoduct2</a></li>
+                  <li><a class="dropdown-item" href="./single-product-3.html">single ptoduct3</a></li>
+                  <li><a class="dropdown-item" href="./single-product-4.html">single ptoduct4</a></li>
+                  <li><a class="dropdown-item" href="./shop-cart.html">shop cart</a></li>
+                  <li><a class="dropdown-item" href="./shop-checkout.html">shop checkout</a></li>
+                  <li><a class="dropdown-item" href="./Compare.html">shop compare</a></li>
+                  <li><a class="dropdown-item" href="./wishlist.html">shop wishlist</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./vendorlisting final.html"
+                  data-bs-toggle="dropdown"
+                  >Vendors</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./vendorlisting final.html">Vendors Listing</a></li>
+                  <li><a class="dropdown-item" href="./vendorsingle final.html">Vendors single</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./Pages-Page1.html"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./Pages-Page1.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page2.html">Contact Us</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page3.html">Careers</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./Pages-Page4.html">term and condition</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./Pages-Page5.html">Register</a></li>
+                  <li><a class="dropdown-item" href="./Pages-Page6.html">Login</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-link-custom small"
+                  href="./blogNoSide.html"
+                  data-bs-toggle="dropdown"
+                  >Blogs</a
+                >
+                <ul class="dropdown-menu shadow-sm border-0">
+                  <li><a class="dropdown-item" href="./blogNoSide.html">Blog Ni sidebar</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./blogRight.html">Blog-Right sidebar</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./Pages-Blog_List.html">Blog list</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./blogBig.html">Blog ctegoty big</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blogSingleLeft.html"
+                      >Blog single- left sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./blogSingleRight.html"
+                      >Blog single-right sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./blogSingleNoSide.html">Blog single-no sidebar</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <a class="nav-link nav-item-link small" href="./Pages-Page2.html">Contact Us</a>
+              </div>
+            </nav>
+
+            <div class="header-actions d-flex align-items-center gap-3">
+              <!-- User -->
+              <a href="#" class="action-btn">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                    fill="#a0b0c0"
+                  />
+                  <path
+                    opacity="0.9"
+                    d="M12.0002 14.5C6.99017 14.5 2.73017 17.86 1.70017 22.42C1.57017 22.99 2.01017 23.5 2.60017 23.5H21.4002C21.9902 23.5 22.4302 22.99 22.3002 22.42C21.2702 17.86 17.0102 14.5 12.0002 14.5Z"
+                    fill="#32537a"
+                  />
+                </svg>
+              </a>
+
+              <!-- Wishlist -->
+              <a href="#" class="action-btn position-relative">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M12 13C7.5 13 4 9.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 3.81 14 5.09C14.7 4.27 15.65 3.67 16.73 3.32C15.36 2.5 13.74 2 12 2C8.92 2 6.5 4.42 6.5 7.5C6.5 10.5 9.5 13 12 13Z"
+                    fill="#32537a"
+                  />
+                </svg>
+                <span class="badge-count">5</span>
+              </a>
+
+              <!-- Cart -->
+              <a href="#" class="action-btn position-relative">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L21.16 4.96C21.41 4.5 21.08 4 20.55 4H5.21L4.27 2H1V4H3L6.6 11.59L5.25 14.04C4.52 15.37 5.48 17 7 17H19V15H7.42C7.29 15 7.17 14.89 7.17 14.75Z"
+                    fill="#32537a"
+                  />
+                </svg>
+                <span class="badge-count">2</span>
+              </a>
+
+              <a href="#" class="action-btn">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="18" cy="6" r="3" fill="#a0b0c0" />
+                  <rect
+                    x="3"
+                    y="15"
+                    width="6"
+                    height="6"
+                    rx="2"
+                    fill="#a0b0c0"
+                  />
+                  <path
+                    d="M11 5H14C14.55 5 15 4.55 15 4C15 3.45 14.55 3 14 3H9C8.45 3 8 3.45 8 4V9C8 9.55 8.45 10 9 10C9.55 10 10 9.55 10 9V7.41L12.29 9.71C12.68 10.1 13.32 10.1 13.71 9.71C14.1 9.32 14.1 8.68 13.71 8.29L11 5Z"
+                    fill="#32537a"
+                  />
+                  <path
+                    d="M15 15V16.59L12.71 14.29C12.32 13.9 11.68 13.9 11.29 14.29C10.9 14.68 10.9 15.32 11.29 15.71L14 19H11C10.45 19 10 19.45 10 20C10 20.55 10.45 21 11 21H16C16.55 21 17 20.55 17 20V15C17 14.45 16.55 14 16 14C15.45 14 15 14.45 15 15Z"
+                    fill="#32537a"
+                  />
+                </svg>
+              </a>
+              <!-- Mobile Menu Toggle Button -->
+              <button
+                class="btn border-0 p-0 d-xl-none text-muted fs-3 ms-1"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenuOffcanvas"
+                aria-controls="mobileMenuOffcanvas"
+              >
+                <i class="bi bi-list"></i>
+              </button>
+            </div>
+          </nav>
+
+          <div class="header-actions d-flex align-items-center gap-3">
+            <!-- User -->
+            <a href="#" class="action-btn">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+                  fill="#a0b0c0" />
+                <path
+                  opacity="0.9"
+                  d="M12.0002 14.5C6.99017 14.5 2.73017 17.86 1.70017 22.42C1.57017 22.99 2.01017 23.5 2.60017 23.5H21.4002C21.9902 23.5 22.4302 22.99 22.3002 22.42C21.2702 17.86 17.0102 14.5 12.0002 14.5Z"
+                  fill="#32537a" />
+              </svg>
+            </a>
+
+            <!-- Wishlist -->
+            <a href="#" class="action-btn position-relative">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  opacity="0.4"
+                  d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
+                  fill="#32537a" />
+                <path
+                  d="M12 13C7.5 13 4 9.5 4 8.5C4 5.42 6.42 3 9.5 3C11.24 3 12.91 3.81 14 5.09C14.7 4.27 15.65 3.67 16.73 3.32C15.36 2.5 13.74 2 12 2C8.92 2 6.5 4.42 6.5 7.5C6.5 10.5 9.5 13 12 13Z"
+                  fill="#32537a" />
+              </svg>
+              <span class="badge-count">5</span>
+            </a>
+
+            <!-- Cart -->
+            <a href="#" class="action-btn position-relative">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  opacity="0.4"
+                  d="M17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18Z"
+                  fill="#32537a" />
+                <path
+                  d="M7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L21.16 4.96C21.41 4.5 21.08 4 20.55 4H5.21L4.27 2H1V4H3L6.6 11.59L5.25 14.04C4.52 15.37 5.48 17 7 17H19V15H7.42C7.29 15 7.17 14.89 7.17 14.75Z"
+                  fill="#32537a" />
+              </svg>
+              <span class="badge-count">2</span>
+            </a>
+
+            <a href="#" class="action-btn">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18" cy="6" r="3" fill="#a0b0c0" />
+                <rect x="3" y="15" width="6" height="6" rx="2" fill="#a0b0c0" />
+                <path
+                  d="M11 5H14C14.55 5 15 4.55 15 4C15 3.45 14.55 3 14 3H9C8.45 3 8 3.45 8 4V9C8 9.55 8.45 10 9 10C9.55 10 10 9.55 10 9V7.41L12.29 9.71C12.68 10.1 13.32 10.1 13.71 9.71C14.1 9.32 14.1 8.68 13.71 8.29L11 5Z"
+                  fill="#32537a" />
+                <path
+                  d="M15 15V16.59L12.71 14.29C12.32 13.9 11.68 13.9 11.29 14.29C10.9 14.68 10.9 15.32 11.29 15.71L14 19H11C10.45 19 10 19.45 10 20C10 20.55 10.45 21 11 21H16C16.55 21 17 20.55 17 20V15C17 14.45 16.55 14 16 14C15.45 14 15 14.45 15 15Z"
+                  fill="#32537a" />
+              </svg>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button
+              class="btn border-0 p-0 d-xl-none text-muted fs-3 ms-1"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenuOffcanvas"
+              aria-controls="mobileMenuOffcanvas">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+
+
+
+
+
+
+
+<section class="category-banner-section">
+  <div class="container">
+
+    <!-- See More checkbox -->
+    <input type="checkbox" id="category-more" class="category-more-check">
+
+    <div class="category-banner-row">
+
+      <!-- =========================
+           PRODUCT CATEGORIES
+      ========================== -->
+      <aside class="product-categories">
+
+        <h5 class="categories-title">Product Categories</h5>
+
+        <ul class="category-list">
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Computers & Laptop
+              </span>
+              <span class="category-count">09</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Electric accessories
+              </span>
+              <span class="category-count">12</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Mainboard & CPU
+              </span>
+              <span class="category-count">24</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Bluetooth devices
+              </span>
+              <span class="category-count">34</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Mouse & Keyboard
+              </span>
+              <span class="category-count">65</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Wired Headphone
+              </span>
+              <span class="category-count">15</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Gaming Gadgets
+              </span>
+              <span class="category-count">76</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Smart watches
+              </span>
+              <span class="category-count">89</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Cell Phones
+              </span>
+              <span class="category-count">23</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="category-name">
+                <i class="bi bi-caret-right-fill"></i>
+                Headphone
+              </span>
+              <span class="category-count">88</span>
+            </a>
+          </li>
+
+
+          <!-- HIDDEN CATEGORIES -->
+
+          <div class="extra-categories">
+
+            <li>
+              <a href="#">
+                <span class="category-name">
+                  <i class="bi bi-caret-right-fill"></i>
+                  Home theater
+                </span>
+                <span class="category-count">86</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="category-name">
+                  <i class="bi bi-caret-right-fill"></i>
+                  Cameras & drones
+                </span>
+                <span class="category-count">124</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="category-name">
+                  <i class="bi bi-caret-right-fill"></i>
+                  PC gaming
+                </span>
+                <span class="category-count">56</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="category-name">
+                  <i class="bi bi-caret-right-fill"></i>
+                  Smart home
+                </span>
+                <span class="category-count">87</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="category-name">
+                  <i class="bi bi-caret-right-fill"></i>
+                  Networking
+                </span>
+                <span class="category-count">36</span>
+              </a>
+            </li>
+
+          </div>
+
+        </ul>
+
+        <label for="category-more" class="see-more-btn">
+          <span class="see-more-text">See More</span>
+          <i class="bi bi-chevron-down"></i>
+        </label>
+
+      </aside>
+
+
+      <!-- =========================
+           BANNER / CAROUSEL
+      ========================== -->
+
+      <div class="category-banner">
+        
+
+        <!-- CSS Carousel -->
+        <input type="radio" name="category-slide" id="category-slide-1" checked>
+        <input type="radio" name="category-slide" id="category-slide-2">
+       
+
+        <div class="category-slides">
+
+          <!-- SLIDE 1 -->
+          <div class="category-slide slide-one">
+
+            <div class="banner-content">
+
+              <span class="banner-small-title">
+                HOT RIGHT NOW
+              </span>
+
+               <h2>
+                Sale Up to 50% Off
+            </h2>
+            <h1>
+                Online Book Store
+            </h1>
+
+              
+                <p class="font-sm color-brand-3">Curabitur id lectus in felis hendrerit efficitur quis quis lectus. Donec sollicitudin elit eu ipsum maximus blandit. Curabitur blandit tempus consectetur.</p>
+              
+
+              <div class="banner-buttons">
+                <a href="#" class="shop-now-btn">
+                  Shop now
+                </a>
+
+                <a href="#" class="learn-more-btn">
+                  Learn more
+                </a>
+              </div>
+
+            </div>
+
+            <div class="banner-image">
+              <img src="./imageshome8/banner.png" alt="Books">
+            </div>
+
+          </div>
+
+
+          <!-- SLIDE 2 -->
+          <div class="category-slide slide-two">
+
+            <div class="banner-content">
+
+              <span class="banner-small-title">
+                 HOT RIGHT NOW
+              </span>
+
+              <h2>
+                Sale Up to 50% Off
+            </h2>
+            <h1>
+                Online Book Store
+            </h1>
+
+              <p>
+                <p class="font-sm color-brand-3">Curabitur id lectus in felis hendrerit efficitur quis quis lectus. Donec sollicitudin elit eu ipsum maximus blandit. Curabitur blandit tempus consectetur.</p>
+              </p>
+
+              <div class="banner-buttons">
+                <a href="#" class="shop-now-btn">
+                  Shop now
+                </a>
+
+                <a href="#" class="learn-more-btn">
+                  Learn more
+                </a>
+              </div>
+
+            </div>
+
+            <div class="banner-image">
+              <img src="./imageshome8/banner.png" alt="Products">
+            </div>
+
+          </div>
+
+
+         
+          
+
+        </div>
+
+
+        <!-- Carousel dots -->
+
+        <div class="carousel-dots">
+
+          <label for="category-slide-1"></label>
+
+          <label for="category-slide-2"></label>
+
+        
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="promo-cards-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="promo-card promo-card-1">
+
+          <div class="promo-content">
+            <span class="promo-label">Latest Books</span>
+
+            <h3>Exclusive Offers</h3>
+
+            <p>
+              Let's change thinking<br>
+              with inspire books
+            </p>
+
+            <a href="#" class="promo-shop-link">
+              SHOP NOW
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+
+          <div class="promo-image">
+            <img
+              src="./imageshome8/sale1.png"
+              alt="Latest Books"
+            >
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="promo-card promo-card-2">
+
+          <div class="promo-content">
+            <span class="promo-label">Best collection</span>
+
+            <h3>
+              Get up to 20%<br>
+              discount
+            </h3>
+
+            <p>Only this week</p>
+
+            <a href="#" class="promo-shop-link">
+              SHOP NOW
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+
+          <div class="promo-image">
+            <img
+              src="./imageshome8/sale2.png"
+              alt="Best Collection"
+            >
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="promo-card promo-card-3">
+
+          <div class="promo-content">
+            <span class="promo-label">Gift the most</span>
+
+            <h3>
+              Professional<br>
+              Books
+            </h3>
+
+            <p>Flat 50% discount</p>
+
+            <a href="#" class="promo-shop-link">
+              SHOP NOW
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+
+          <div class="promo-image">
+            <img
+              src="./imageshome8/sale3.png"
+              alt="Professional Books"
+            >
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     LATEST DEALS
+========================================= -->
+
+<section class="latest-deals-section">
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="deals-header">
+
+      <div class="deals-title">
+        <h2>Latest Deals</h2>
+        <p>Special products in this month</p>
+      </div>
+
+      <div class="deals-right">
+
+        <div class="hurry-up">
+          <div>
+            <span>Hurry up!</span>
+            <small>Deals end in</small>
+          </div>
+
+          <div class="deal-timer">
+
+            <span>00</span>
+            <span>00</span>
+            <span>00</span>
+            <span>00</span>
+
+          </div>
+        </div>
+
+        <a href="#" class="view-all">
+          View All
+          <i class="bi bi-arrow-right"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Horizontal line -->
+    <div class="deals-line"></div>
+
+
+    <!-- Products -->
+    <div class="deals-products">
+
+
+      <!-- CARD 1 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp1.png" alt="Book">
+
+          <div class="deal-actions">
+
+            <a href="#" title="Add to cart">
+              <i class="bi bi-cart3"></i>
+            </a>
+
+            <a href="#" title="Quick view">
+              <i class="bi bi-eye"></i>
+            </a>
+
+            <a href="#" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </a>
+
+            <a href="#" title="Compare">
+              <i class="bi bi-arrow-left-right"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(12)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 2 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp2.png" alt="Book">
+
+          <div class="deal-actions">
+
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(10)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 3 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp3.png" alt="Book">
+
+          <div class="deal-actions">
+
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(15)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 4 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp4.png" alt="Book">
+
+          <div class="deal-actions">
+
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(8)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 5 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp5.png" alt="Book">
+
+          <div class="deal-actions">
+
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(18)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 6 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp6.png" alt="Book">
+
+          <div class="deal-actions">
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(9)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 7 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp7.png" alt="Book">
+
+          <div class="deal-actions">
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(13)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 8 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp8.png" alt="Book">
+
+          <div class="deal-actions">
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(11)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 9 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp9.png" alt="Book">
+
+          <div class="deal-actions">
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(7)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 10 -->
+      <div class="deal-card">
+
+        <div class="deal-image">
+
+          <span class="discount-badge">-17%</span>
+
+          <img src="./imageshome8/sp10.png" alt="Book">
+
+          <div class="deal-actions">
+            <a href="#"><i class="bi bi-cart3"></i></a>
+            <a href="#"><i class="bi bi-eye"></i></a>
+            <a href="#"><i class="bi bi-heart"></i></a>
+            <a href="#"><i class="bi bi-arrow-left-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="deal-info">
+
+          <span class="deal-author">Benjamin Graham</span>
+
+          <div class="deal-rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+            <small>(16)</small>
+          </div>
+
+          <h3>
+            Start with Why: How Great Leaders
+            Inspire Everyone to Take Action
+          </h3>
+
+          <div class="deal-price">
+            <strong>$198.5</strong>
+            <del>$256.3</del>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+ <section class="wide-promo-section">
+      <div class="wide-promo">
+        <div class="wide-promo-content">
+        
+          <p>Best Book Colletion</p>
+
+          <h2>Let’s Change Things Inspire Book</h2>
+
+          <a href="#" class="wide-promo-btn"> Shop Now > </a>
+        </div>
+      </div>
+    </section>
+
+
+<!-- قسم Picked By Ecom -->
+<section class="picked-section py-5 position-relative mt-5">
+  <div class="container">
+    <!-- العنوان الرئيسي -->
+    <div class="section-title text-center mb-4">
+      <h2 class="fw-bold mb-1">Picked By Ecom</h2>
+      <p class="small">Special products in this month</p>
+    </div>
+
+    
+    
+          <div class="row g-4 justify-content-center">
+            
+            <!-- الكارد الأول (يظهر دائماً في كل الأحجام) -->
+            <div class="col-12 col-md-6">
+              <div class="card product-deal-card h-100 position-relative shadow-sm  overflow-hidden">
+                <!-- شارة Top Deals المائلة -->
+                <div class="ribbon-badge">TOP DEALS</div>
+                
+                <div class="card-body p-3 p-lg-4">
+                  <!-- تحول الـ row من عمودي في md إلى أفقي في lg وما فوق -->
+                  <div class="row g-3 align-items-center">
+                    
+                    <!-- قسم الصور (كاروسيل داخلي تلقائي) -->
+                    <div class="col-12 col-lg-5 text-center">
+                      <div id="innerCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imageshome8/screen-2.png" class="img-fluid deal-img" alt="MacBook 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imageshome8/screen-3.png" class="img-fluid deal-img" alt="MacBook 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imageshome8/screen.png" class="img-fluid deal-img" alt="MacBook 3">
+                          </div>
+                        </div>
+                        <!-- مؤشرات النقاط للصور -->
+                        <div class="carousel-indicators inner-indicators position-static mt-2 mb-0">
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="2"></button>
+                        </div>
+                      </div>
+
+                      <!-- العداد التنازلي التوضيحي -->
+                      <div class="countdown-boxes d-flex justify-content-center gap-1 mt-3">
+                        <div class="c-box"><span>00</span><small>Day</small></div>:
+                        <div class="c-box"><span>00</span><small>Hour</small></div>:
+                        <div class="c-box"><span>00</span><small>Min</small></div>:
+                        <div class="c-box"><span>00</span><small>Sec</small></div>
+                      </div>
+                    </div>
+
+                    <!-- قسم المحتوى والتفاصيل الثابتة -->
+                    <div class="col-12 col-lg-7">
+                      <span class="extra-small mute">Apple</span>
+                      <h5 class="product-title mt-1 fw-bold">Apple MacBook Air with Apple M1 Chip 13-inch, 8GB RAM</h5>
+                      <div class="rating-stars text-warning small my-1">
+                        ★ ★ ★ ★ ★ <span class="mute">(65)</span>
+                      </div>
+
+                      <div class="price-box my-2">
+                        <span class="strong fw-bold fs-5">$2856.3</span>
+                        <span class="mute text-decoration-line-through small ms-2">$3856.3</span>
+                      </div>
+
+                      <!-- شريط التقدم Progress Bar -->
+                      <div class="progress-wrap my-2">
+                        <div class="progress" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;"></div>
+                        </div>
+                        <div class="d-flex justify-content-between mute extra-small mt-1">
+                          <span>Available: <strong class="strong">568</strong></span>
+                          <span>Sold: <strong class="strong">289</strong></span>
+                        </div>
+                      </div>
+
+                      <!-- قائمة المواصفات -->
+                      <ul class="specs-list list-unstyled extra-small mute mt-3 mb-0">
+                        <li>• 27-inch (diagonal) Retina 5K display</li>
+                        <li>• 3.1GHz 6-core 10th-generation Intel Core i5</li>
+                        <li>• AMD Radeon Pro 5300 graphics</li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- الكارد الثاني (يختفي في الشاشات الصغيرة ويظهر من md فما فوق) -->
+           <div class="col-12 col-md-6">
+              <div class="card product-deal-card h-100 position-relative shadow-sm  overflow-hidden">
+                <!-- شارة Top Deals المائلة -->
+                <div class="ribbon-badge">TOP DEALS</div>
+                
+                <div class="card-body p-3 p-lg-4">
+                  <!-- تحول الـ row من عمودي في md إلى أفقي في lg وما فوق -->
+                  <div class="row g-3 align-items-center">
+                    
+                    <!-- قسم الصور (كاروسيل داخلي تلقائي) -->
+                    <div class="col-12 col-lg-5 text-center">
+                      <div id="innerCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./imageshome8/screen-2.png" class="img-fluid deal-img" alt="MacBook 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imageshome8/screen-3.png" class="img-fluid deal-img" alt="MacBook 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./imageshome8/screen.png" class="img-fluid deal-img" alt="MacBook 3">
+                          </div>
+                        </div>
+                        <!-- مؤشرات النقاط للصور -->
+                        <div class="carousel-indicators inner-indicators position-static mt-2 mb-0">
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#innerCarousel1" data-bs-slide-to="2"></button>
+                        </div>
+                      </div>
+
+                      <!-- العداد التنازلي التوضيحي -->
+                      <div class="countdown-boxes d-flex justify-content-center gap-1 mt-3">
+                        <div class="c-box"><span>00</span><small>Day</small></div>:
+                        <div class="c-box"><span>00</span><small>Hour</small></div>:
+                        <div class="c-box"><span>00</span><small>Min</small></div>:
+                        <div class="c-box"><span>00</span><small>Sec</small></div>
+                      </div>
+                    </div>
+
+                    <!-- قسم المحتوى والتفاصيل الثابتة -->
+                    <div class="col-12 col-lg-7">
+                      <span class="extra-small mute">Apple</span>
+                      <h5 class="product-title mt-1 fw-bold">Apple MacBook Air with Apple M1 Chip 13-inch, 8GB RAM</h5>
+                      <div class="rating-stars text-warning small my-1">
+                        ★ ★ ★ ★ ★ <span class="mute">(65)</span>
+                      </div>
+
+                      <div class="price-box my-2">
+                        <span class="strong fw-bold fs-5">$2856.3</span>
+                        <span class="mute text-decoration-line-through small ms-2">$3856.3</span>
+                      </div>
+
+                      <!-- شريط التقدم Progress Bar -->
+                      <div class="progress-wrap my-2">
+                        <div class="progress" style="height: 6px;">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;"></div>
+                        </div>
+                        <div class="d-flex justify-content-between mute extra-small mt-1">
+                          <span>Available: <strong class="strong">568</strong></span>
+                          <span>Sold: <strong class="strong">289</strong></span>
+                        </div>
+                      </div>
+
+                      <!-- قائمة المواصفات -->
+                      <ul class="specs-list list-unstyled extra-small mute mt-3 mb-0">
+                        <li>• 27-inch (diagonal) Retina 5K display</li>
+                        <li>• 3.1GHz 6-core 10th-generation Intel Core i5</li>
+                        <li>• AMD Radeon Pro 5300 graphics</li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+</section>
+
+
+
+ <section class="top-books-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="top-books-header">
+          <div>
+            <h2>Top Selling Books</h2>
+            <p>Special products in this month.</p>
+          </div>
+
+          
+
+            <!-- Carousel arrows -->
+            <div class="book-arrows">
+              <button
+                type="button"
+                class="top-books-arrow"
+                data-bs-target="#TopBooksCarousel"
+                data-bs-slide="prev">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+
+              <button
+                type="button"
+                class="top-books-arrow"
+                data-bs-target="#TopBooksCarousel"
+                data-bs-slide="next">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          
+        </div>
+
+        <!-- Whole section carousel -->
+        <div
+          id="TopBooksCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000">
+          <div class="carousel-inner">
+            <!-- ================= SLIDE 1 ================= -->
+            <div class="carousel-item active">
+              <div class="top-books-grid">
+                <!-- Card 1 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book1.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book2.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge deal"> Deal </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book3.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge sale"> -17% </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book4.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book5.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book6.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book7.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge sale"> -17% </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book8.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book9.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= SLIDE 2 ================= -->
+            <div class="carousel-item">
+              <div class="top-books-grid">
+                <!-- Card 1 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book1.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book2.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge deal"> Deal </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book3.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge sale"> -17% </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book4.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book5.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book6.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book7.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge sale"> -17% </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book8.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge new"> New </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="top-book-card">
+                  <div class="top-book-image">
+                    
+                    <img src="./imageshome8/book9.png" alt="Top book" />
+                  </div>
+
+                  <div class="top-book-content">
+                    <span class="book-product-badge hot"> Hot </span>
+                    <p>Steven Job</p>
+
+                    <h3>
+                      Eight Unconventional CEOs and Their Radically Rational
+                      Blueprint for Success
+                    </h3>
+
+                    <div class="top-book-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <small>(65)</small>
+                    </div>
+
+                    <div class="top-book-price">
+                      <strong>$2556.3</strong>
+                      <del>$3225.6</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<div class="container py-5">
+
+    <!-- ==================== الصف العلوي: البانرات ==================== -->
+    <div class="row g-4 mb-4">
+        <!-- البانر الأول (Exclusive Offers) -->
+        <div class="col-12 col-lg-6">
+            <div class="banner-card banner-blue p-4 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                <div class="banner-text pe-sm-3 mb-3 mb-sm-0">
+                    <span class="banner-subtitle d-block">Latest Books</span>
+                    <h3 class="banner-title">Exclusive Offers</h3>
+                    <p class="banner-desc">Nullam diam tellus, convallis vel rhoncus vel, condimentum</p>
+                    <a href="#" class="banner-link">
+                        SHOP NOW <i class="bi bi-caret-right-fill"></i>
+                    </a>
+                </div>
+                <div class="banner-image text-center">
+                    <img src="./imageshome8/book-ads1.png" alt="Books Collection" class="banner-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- البانر الثاني (History Books) -->
+        <div class="col-12 col-lg-6">
+            <div class="banner-card banner-beige p-4 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+                <div class="banner-text pe-sm-3 mb-3 mb-sm-0">
+                    <span class="banner-subtitle d-block">For Collection</span>
+                    <h3 class="banner-title">History Books</h3>
+                    <p class="banner-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus laoreet</p>
+                    <a href="#" class="banner-link">
+                        SHOP NOW <i class="bi bi-caret-right-fill"></i>
+                    </a>
+                </div>
+                <div class="banner-image text-center">
+                    <img src="./imageshome8/book-ads2.png" alt="History Books" class="banner-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== الصف السفلي: الصناديق الأربعة ==================== -->
+    <div class="row g-3">
+        <!-- الصندوق 1: Business & Money -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="category-box">
+                <div class="d-flex">
+                    <div class="cat-thumb-box">
+                        <img src="./imageshome8/img1.png" alt="Business" class="cat-thumb-img">
+                        <a href="#" class="btn-view-all">View all</a>
+                    </div>
+                    <div class="cat-content">
+                        <h6 class="cat-title">Business & Money</h6>
+                        <ul class="cat-links-list">
+                            <li><a href="#" class="cat-link-item">Accounting</a></li>
+                            <li><a href="#" class="cat-link-item">Biography & History</a></li>
+                            <li><a href="#" class="cat-link-item">Business Culture</a></li>
+                            <li><a href="#" class="cat-link-item">Economics</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الصندوق 2: Biographies -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="category-box">
+                <div class="d-flex">
+                    <div class="cat-thumb-box">
+                        <img src="./imageshome8/img2.png" alt="Biographies" class="cat-thumb-img">
+                        <a href="#" class="btn-view-all">View all</a>
+                    </div>
+                    <div class="cat-content">
+                        <h6 class="cat-title">Biographies</h6>
+                        <ul class="cat-links-list">
+                            <li><a href="#" class="cat-link-item">HD DVD Players</a></li>
+                            <li><a href="#" class="cat-link-item">Projection Screens</a></li>
+                            <li><a href="#" class="cat-link-item">Television Accessories</a></li>
+                            <li><a href="#" class="cat-link-item">TV-DVD Combos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الصندوق 3: Children's Books -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="category-box">
+                <div class="d-flex">
+                    <div class="cat-thumb-box">
+                        <img src="./imageshome8/img3.png" alt="Children's Books" class="cat-thumb-img">
+                        <a href="#" class="btn-view-all">View all</a>
+                    </div>
+                    <div class="cat-content">
+                        <h6 class="cat-title">Children's Books</h6>
+                        <ul class="cat-links-list">
+                            <li><a href="#" class="cat-link-item">Action & Adventure</a></li>
+                            <li><a href="#" class="cat-link-item">Activities, Crafts</a></li>
+                            <li><a href="#" class="cat-link-item">Arts, Music</a></li>
+                            <li><a href="#" class="cat-link-item">Early Learning</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- الصندوق 4: Education & Teaching -->
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="category-box">
+                <div class="d-flex">
+                    <div class="cat-thumb-box">
+                        <img src="./imageshome8/img4.png" alt="Education" class="cat-thumb-img">
+                        <a href="#" class="btn-view-all">View all</a>
+                    </div>
+                    <div class="cat-content">
+                        <h6 class="cat-title">Education & Teaching</h6>
+                        <ul class="cat-links-list">
+                            <li><a href="#" class="cat-link-item">Higher & Continuing</a></li>
+                            <li><a href="#" class="cat-link-item">Schools & Teaching</a></li>
+                            <li><a href="#" class="cat-link-item">Study Guides</a></li>
+                            <li><a href="#" class="cat-link-item">Test Preparation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- =========================================
+     multi-column-section
+     ========================================= -->
+
+      <section class="multi-column-section py-5">
+        <div class="container">
+          <div class="row g-4">
+            <!-- ================= column 1: Best seller ================= -->
+            <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+              <div class="column-widget">
+                <!--Header-->
+                <div
+                  class="column-header d-flex justify-content-between align-items-center mb-3">
+                  <h5 class="column-title mb-0">Best seller</h5>
+                  <div class="carousel-nav">
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselBestseller"
+                      data-bs-slide="prev">
+                      <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselBestseller"
+                      data-bs-slide="next">
+                      <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- carousel -->
+                <div
+                  id="carouselBestseller"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <!--slide 1-->
+                    <div class="carousel-item active">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book1.png" alt="book1" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book2.png" alt="book2" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book3.png" alt="book3" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book6.png" alt="book6" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--slide 2 -->
+                    <div class="carousel-item">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book1.png" alt="book1" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book2.png" alt="book2" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book3.png" alt="book3" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book7.png" alt="book7" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= column 2: Featured products ================= -->
+            <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+              <div class="column-widget">
+                <div
+                  class="column-header d-flex justify-content-between align-items-center mb-3">
+                  <h5 class="column-title mb-0">Featured products</h5>
+                  <div class="carousel-nav">
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselFeatured"
+                      data-bs-slide="prev">
+                      <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselFeatured"
+                      data-bs-slide="next">
+                      <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="carouselFeatured"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <!-------1st slide----->
+                    <div class="carousel-item active">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book4.png" alt="book4" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book5.png" alt="book5" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book6.png" alt="book6" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Chromecast</span>
+                          <h6 class="mini-title">
+                            <a href="#">Chromecast with Google TV Streaming</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book8.png" alt="book8" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!------2nd slide----->
+                    <div class="carousel-item">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book4.png" alt="book4" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book5.png" alt="book5" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book6.png" alt="book6" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book4.png" alt="book4" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= column 3: Most viewed ================= -->
+            <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+              <div class="column-widget">
+                <div
+                  class="column-header d-flex justify-content-between align-items-center mb-3">
+                  <h5 class="column-title mb-0">Most viewed</h5>
+                  <div class="carousel-nav">
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselMostViewed"
+                      data-bs-slide="prev">
+                      <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselMostViewed"
+                      data-bs-slide="next">
+                      <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="carouselMostViewed"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <!---1st slide-->
+                    <div class="carousel-item active">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book7.png" alt="book7" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book8.png" alt="book8" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book9.png" alt="book9" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book1.png" alt="book1" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!----2nd slide-->
+                    <div class="carousel-item">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book7.png" alt="book7" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book8.png" alt="book8" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book9.png" alt="book9" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book1.png" alt="book1" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= column 4: Trending ================= -->
+            <div class="col-xl-3 col-lg-6 col-md-6 col-12">
+              <div class="column-widget">
+                <div
+                  class="column-header d-flex justify-content-between align-items-center mb-3">
+                  <h5 class="column-title mb-0">Trending</h5>
+                  <div class="carousel-nav">
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselTrending"
+                      data-bs-slide="prev">
+                      <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button
+                      class="nav-arrow"
+                      type="button"
+                      data-bs-target="#carouselTrending"
+                      data-bs-slide="next">
+                      <i class="bi bi-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div
+                  id="carouselTrending"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000">
+                  <div class="carousel-inner">
+                    <!----1st slide-->
+                    <div class="carousel-item active">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book5.png" alt="book5" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book2.png" alt="book2" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book9.png" alt="book9" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book7.png" alt="book7" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!----2nd slide-->
+                    <div class="carousel-item">
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book1.png" alt="book1" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <span class="mini-badge">-17%</span>
+                          <img src="./imageshome8/book3.png" alt="book3" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book9.png" alt="book9" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mini-product-item">
+                        <div class="mini-thumb position-relative">
+                          <img src="./imageshome8/book4.png" alt="book4" />
+                        </div>
+                        <div class="mini-info">
+                          <span class="mini-brand">Steven Job</span>
+                          <h6 class="mini-title">
+                            <a href="#">How Great Leaders İnspire Everyone to Take Action</a>
+                          </h6>
+                          <div class="mini-stars">
+                            <i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i
+                            ><i class="bi bi-star-fill"></i>
+                            <span class="reviews-count">(65)</span>
+                          </div>
+                          <div class="mini-price">
+                            <span class="current">$2556.3</span>
+                            <span class="old">$3225.6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+ <!-- =========================================
+      news-section
+      ====================================== -->
+
+      <section class="news-section">
+        <div class="news-container">
+          <!-- Header -->
+          <div class="news-header">
+            <div>
+              <h2>Latest News &amp; Events</h2>
+              <p>From our blog forum</p>
+            </div>
+
+            <div class="news-arrows">
+              <button
+                type="button"
+                data-bs-target="#newsCarousel"
+                data-bs-slide="prev">
+                <i class="bi bi-chevron-left"></i>
+              </button>
+
+              <button
+                type="button"
+                data-bs-target="#newsCarousel"
+                data-bs-slide="next">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- =========================
+             DESKTOP : 4 ITEMS
+             ========================= -->
+
+          <div
+            id="newsCarousel"
+            class="carousel slide news-carousel desktop-news"
+            data-bs-interval="3000"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1 : 1 2 3 4 -->
+              <div class="carousel-item active">
+                <div class="row g-4">
+                  <!-- 1 -->
+                  <div class="col-12 col-lg-3">
+                    <article class="news-card">
+                      <img
+                        class="news-image"
+                        src="images/news1.png"
+                        alt="How the Courage to Be Vulnerable Transforms" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+
+                        <h3>
+                          <a href="#">
+                            How the Courage to Be Vulnerable Transforms
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            5 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <!-- 2 -->
+                  <div class="col-12 col-lg-3">
+                    <article class="news-card">
+                      <img
+                        class="news-image"
+                        src="images/news2.png"
+                        alt="Why Some Companies Make the Leap and Others" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Why Some Companies Make the Leap and Others
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <!-- 3 -->
+                  <div class="col-12 col-lg-3">
+                    <article class="news-card">
+                      <img
+                        class="news-image"
+                        src="images/news3.png"
+                        alt="The Art of Stress-Free Productivity" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#"> The Art of Stress-Free Productivity </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            7 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <!-- 4 -->
+                  <div class="col-12 col-lg-3">
+                    <article class="news-card">
+                      <img
+                        class="news-image"
+                        src="images/news4.png"
+                        alt="Ten Reasons We’re Wrong About the World" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Ten Reasons We’re Wrong About the World
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 : 2 3 4 1 -->
+              <div class="carousel-item">
+                <div class="row g-4">
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news2.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Why Some Companies Make the Leap and Others
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news3.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#"> The Art of Stress-Free Productivity </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            7 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news4.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Ten Reasons We’re Wrong About the World
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news1.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            How the Courage to Be Vulnerable Transforms
+                          </a>
+                        </h3>
+
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            5 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 : 3 4 1 2 -->
+              <div class="carousel-item">
+                <div class="row g-4">
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news3.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#"> The Art of Stress-Free Productivity </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            7 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news4.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Ten Reasons We’re Wrong About the World
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news1.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            How the Courage to Be Vulnerable Transforms
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            5 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news2.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Why Some Companies Make the Leap and Others
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 : 4 1 2 3 -->
+              <div class="carousel-item">
+                <div class="row g-4">
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news4.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Ten Reasons We’re Wrong About the World
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news1.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            How the Courage to Be Vulnerable Transforms
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            5 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news2.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#">
+                            Why Some Companies Make the Leap and Others
+                          </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            4 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <article class="news-card">
+                      <img class="news-image" src="images/news3.png" alt="" />
+
+                      <div class="news-info">
+                        <a href="#">
+                          <span class="news-category">
+                            <i class="bi bi-bookmark-fill"></i>
+                            News
+                          </span>
+                        </a>
+                        <h3>
+                          <a href="#"> The Art of Stress-Free Productivity </a>
+                        </h3>
+                        <div class="news-meta">
+                          <span>
+                            <i class="bi bi-calendar3"></i>
+                            August 30, 2022
+                          </span>
+                          <span>
+                            <i class="bi bi-clock"></i>
+                            7 mins read
+                          </span>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================
+          services-section
+  ======================================= -->
+
+      <section class="services-section">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-3">
+            <!-- Free Delivery -->
+            <div class="col">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="bi bi-airplane"></i>
+                </div>
+
+                <div class="service-info">
+                  <h3>Free Delivery</h3>
+                  <p>From all orders over $10</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Support 24/7 -->
+            <div class="col">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="bi bi-headset"></i>
+                </div>
+
+                <div class="service-info">
+                  <h3>Support 24/7</h3>
+                  <p>Shop with an expert</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gift Voucher -->
+            <div class="col">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="bi bi-gift"></i>
+                </div>
+
+                <div class="service-info">
+                  <h3>Gift voucher</h3>
+                  <p>Refer a friend</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Return & Refund -->
+            <div class="col">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="bi bi-box-seam"></i>
+                </div>
+
+                <div class="service-info">
+                  <h3>Return &amp; Refund</h3>
+                  <p>Free return over $200</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Secure Payment -->
+            <div class="col">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+
+                <div class="service-info">
+                  <h3>Secure payment</h3>
+                  <p>100% Protected</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="mt-5">
+      <!-- part-1 -->
+      <section class="subscribe-banner">
+
+        <div class="subscribe-container">
+          <!-- النصوص -->
+          <div class="subscribe-content text-center">
+            <h2 class="subscribe-title">
+              Subscribe &amp; Get
+              <span style="color: #f79824">10%</span> Discount
+            </h2>
+            <p class="subscribe-subtitle">
+              Get E-mail updates about our latest shop and special offers.
+            </p>
+          </div>
+
+          <!-- حقل الإدخال وزر الاشتراك بجانبه -->
+          <form
+            class="subscribe-form input-group"
+            onsubmit="event.preventDefault()">
+            <input
+              type="email"
+              placeholder="Your email Address"
+              class="subscribe-input"
+              required />
+            <button type="submit" class="subscribe-btn">Sign Up</button>
+          </form>
+        </div>
+
+        
+    
+      </section>
+      <!-- part-2 -->
+
+      <div
+        class="row ps-5 pe-5 py-5 justify-content-center"
+        style="background-color: var(--footer-gray)">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg">
+          <h2 class="mb-4" style="color: #0e224d">Contact</h2>
+          <p style="color: #8c9ec5">
+            <span class="fw-semibold" style="color: #425a8b">Address:</span> 502
+            New Design Str, Melbourne, San Francisco, CA 94110, United States
+          </p>
+          <p style="color: #8c9ec5">
+            <span class="fw-semibold" style="color: #425a8b">Phone:</span> (+01)
+            123-456-789
+          </p>
+          <p style="color: #8c9ec5">
+            <span class="fw-semibold" style="color: #425a8b">E-mail:</span>
+            contact@ecom-market.com
+          </p>
+          <p style="color: #8c9ec5">
+            <span class="fw-semibold" style="color: #425a8b">Hours:</span> 8:00
+            - 17:00, Mon - Sat
+          </p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href=""
+                ><i
+                  class="bi bi-facebook"
+                  style="font-size: 30px"
+                  id="footer-hover3"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href=""
+                ><i
+                  class="bi bi-instagram"
+                  style="font-size: 30px"
+                  id="footer-hover3"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href=""
+                ><i
+                  class="bi bi-twitter"
+                  style="font-size: 30px"
+                  id="footer-hover3"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-decoration-none" href=""
+                ><i
+                  class="bi bi-linkedin"
+                  style="font-size: 30px"
+                  id="footer-hover3"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg">
+          <h2 class="mb-4" style="color: #0e224d">Make Money with Us</h2>
+          <ul class="list-unstyled">
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Mission & Vision</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Our Team</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Careers</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Press & Media</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Advertising</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Testimonials</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg">
+          <h2 class="mb-4" style="color: #0e224d">Company</h2>
+          <ul class="list-unstyled">
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Our Blog</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Plans & Pricing</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Knowledge Base</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Cookie Policy</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Office Center</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >News & Events</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg">
+          <h2 class="mb-4" style="color: #0e224d">My account</h2>
+          <ul class="list-unstyled">
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >FAQs</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Editor Help</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Community</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Live Chatting</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Contact Us</a
+              >
+            </li>
+            <li class="mb-2" style="color: #8c9ec5">
+              <span><i class="bi bi-caret-right-fill"></i></span
+              ><a href="" class="text-decoration-none" id="footer-hover"
+                >Support Center</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg">
+          <h2 class="mb-4" style="color: #0e224d">App & Payment</h2>
+          <p style="color: #425a8b">
+            Download our Apps and get extra 15% Discount on your first Order…!
+          </p>
+          <a href=""><img src="images/appstore.png" alt="" /></a>
+          <a href=""><img src="images/google-play.png" alt="" /></a>
+          <p style="color: #425a8b">Secured Payment Gateways</p>
+          <img src="images/payment-method.png" alt="" />
+        </div>
+      </div>
+
+      <!-- part-3 -->
+      <div class="row justify-content-center py-5">
+        <div class="col-12 col-md-11 col-lg-11">
+          <ul class="list-unstyled list-inline ps-3">
+            <li class="list-inline-item">
+              <a href=""
+                ><img class="w-100" src="images/logo-2.svg" alt="logo-2"
+              /></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="text-decoration-none small" id="footer-hover2"
+                >EcomMarket.comEcom</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="text-decoration-none small" id="footer-hover2"
+                >Ecom Partners</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="text-decoration-none small" id="footer-hover2"
+                >Ecom Bussiness</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="" class="text-decoration-none small" id="footer-hover2"
+                >Ecom Factory</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-11 d-flex">
+            <p style="color: #0e224d">Electronic:</p>
+            <ul class="list-unstyled list-inline ps-3">
+              <li class="list-inline-item">
+                <a
+                  class="text-decoration-none small"
+                  href=""
+                  style="color: #425a8b"
+                  >Cell Phones |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Headphones |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Television & Video |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Ipad |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Game Controller |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Apple Watch |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >HTCIpad |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Keyboard |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Samsung |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Wireless Speaker |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Samsung Galaxy |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Gaming Mouse |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >eBook Readers |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Service Plans |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Home Audio |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Office Electronics |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Lenovo |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >Mackbook Pro M1 |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href=""
+                  class="text-decoration-none small"
+                  style="color: #425a8b"
+                  >HD Videos Player |
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-11 d-flex">
+            <p style="color: #0e224d">Furniture:</p>
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Sofa |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Chair |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Dining |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Living Room |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Table Lamp |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Night Stand |</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Computer Desk |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Bar Table |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Pillow |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Radio |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Clock |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Bad Room |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Stool |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Television |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >wardrobe |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Living Room Tables |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Dressers |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Patio Sofas |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Nursery |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Kitchen |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Accent Furniture |
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="text-decoration-none" style="color: #425a8b"
+                  >Replacement Parts |
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- part-4 -->
+      <div class="row text-center">
+        <hr />
+        <div class="col justify-content-around d-lg-flex py-3">
+          <p class="small" style="color: #425a8b">
+            Copyright © 2022 Ecom Market. All rights reserved.
+          </p>
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item small">
+              <a id="footer-hover" href="" class="text-decoration-none"
+                >Conditions of Use |
+              </a>
+            </li>
+            <li class="list-inline-item small">
+              <a id="footer-hover" href="" class="text-decoration-none"
+                >Privacy Notice |
+              </a>
+            </li>
+            <li class="list-inline-item small">
+              <a id="footer-hover" href="" class="text-decoration-none"
+                >Interest-Based Ads</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div
+      class="offcanvas offcanvas-end mobile-menu-drawer"
+      tabindex="-1"
+      id="mobileMenuOffcanvas"
+      aria-labelledby="mobileMenuLabel">
+      <!-- Offcanvas Header -->
+      <div class="offcanvas-header border-bottom py-3 px-4">
+        <a
+          href="index.html"
+          class="d-flex align-items-center gap-2 text-decoration-none">
+          <img
+            src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg"
+            alt="Ecom"
+            height="34" />
+        </a>
+      </div>
+
+      <!-- Offcanvas Body -->
+      <div class="offcanvas-body px-4 py-3">
+        <!-- Navigation Accordion -->
+        <div class="accordion accordion-flush" id="mobileNavAccordion">
+          <!-- Home -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navHome">
+                Home
+              </button>
+            </h2>
+            <div
+              id="navHome"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion">
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li>
+                  <a href="index.html" class="mobile-sublink">Homepage 1</a>
+                </li>
+                <li>
+                  <a href="index-2.html" class="mobile-sublink">Homepage 2</a>
+                </li>
+                <li>
+                  <a href="index-3.html" class="mobile-sublink">Homepage 3</a>
+                </li>
+                <li>
+                  <a href="index-4.html" class="mobile-sublink">Homepage 4</a>
+                </li>
+                <li>
+                  <a href="index-5.html" class="mobile-sublink">Homepage 5</a>
+                </li>
+                <li>
+                  <a href="index-6.html" class="mobile-sublink">Homepage 6</a>
+                </li>
+                <li>
+                  <a href="index-7.html" class="mobile-sublink">Homepage 7</a>
+                </li>
+                <li>
+                  <a href="index-8.html" class="mobile-sublink">Homepage 8</a>
+                </li>
+                <li>
+                  <a href="index-9.html" class="mobile-sublink">Homepage 9</a>
+                </li>
+                <li>
+                  <a href="index-10.html" class="mobile-sublink">Homepage 10</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Shop -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navShop">
+                Shop
+              </button>
+            </h2>
+            <div
+              id="navShop"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion">
+              <ul class="dropdown-menu shadow-sm border-0">
+                <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="#">Shop Grid2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">shop list-left sidebar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">shop list-right sidebar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">shop Fullwidth</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct2</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct3</a></li>
+                <li><a class="dropdown-item" href="#">single ptoduct4</a></li>
+                <li><a class="dropdown-item" href="#">shop cart</a></li>
+                <li><a class="dropdown-item" href="#">shop checkout</a></li>
+                <li><a class="dropdown-item" href="#">shop compare</a></li>
+                <li><a class="dropdown-item" href="#">shop wishlist</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Vendors -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navVendors">
+                Vendors
+              </button>
+            </h2>
+            <div
+              id="navVendors"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion">
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li>
+                  <a class="dropdown-item py-1 text-muted" href="#"
+                    >Vendors Listing</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item py-1 text-muted" href="#"
+                    >Vendor single</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pages -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navPages">
+                Pages
+              </button>
+            </h2>
+            <div
+              id="navPages"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion">
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">term and condition</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">ERROR 404</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Blog -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-0 py-2 fw-semibold text-dark bg-transparent shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navBlog">
+                Blog
+              </button>
+            </h2>
+            <div
+              id="navBlog"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileNavAccordion">
+              <ul class="list-unstyled ps-3 py-1 mb-0 small">
+                <li><a class="dropdown-item" href="#">Blog Ni sidebar</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog-Right sidebar </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Blog list </a></li>
+                <li><a class="dropdown-item" href="#">Blog ctegoty big</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single- left sidebar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single-right sidebar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog single-no sidebar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact Us (رابط مباشر بدون سهم لأنه لا يحوي قائمة منسدلة) -->
+          <div class="py-2">
+            <a class="nav-link px-0 fw-semibold text-dark" href="#"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+
+        <hr class="my-4 text-muted opacity-25" />
+
+        <!-- User Profile Section -->
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <img
+            src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/user-1.png"
+            alt="Steven"
+            class="rounded-circle"
+            width="46"
+            height="46"
+            style="object-fit: cover" />
+          <div>
+            <h6 class="mb-0 fw-bold" style="color: #2b5680">Hello Steven !</h6>
+            <small class="text-muted" style="font-size: 0.78rem"
+              >You have 3 new messages</small
+            >
+          </div>
+        </div>
+
+        <!-- Quick User Links (2 Columns) -->
+        <div class="row g-2 mb-4" style="font-size: 0.85rem">
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Account</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Wishlist</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Order Tracking</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Setting</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">My Orders</a>
+          </div>
+          <div class="col-6">
+            <a href="#" class="mobile-menu-link">Sign Out</a>
+          </div>
+        </div>
+
+        <hr class="my-3 text-muted opacity-25" />
+
+        <!-- Promo Banner Card -->
+        <div
+          class="promo-card p-3 rounded-3 mb-4"
+          style="background-color: #e4efe7">
+          <small class="text-muted d-block mb-1" style="font-size: 0.8rem"
+            >Starting from $899</small
+          >
+          <h6 class="fw-bold mb-1" style="color: #1e3a8a">
+            iPhone 12 Pro 128Gb
+          </h6>
+          <p class="small text-muted mb-2">Special Sale</p>
+          <a
+            href="#"
+            class="text-decoration-none fw-bold small text-info d-inline-flex align-items-center gap-1 mb-2">
+            LEARN MORE <i class="bi bi-caret-right-fill"></i>
+          </a>
+          <div class="text-center mt-2">
+            <img
+              src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-1.png"
+              alt="iPhone"
+              class="img-fluid"
+              style="max-height: 140px" />
+          </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="text-muted" style="font-size: 0.75rem; line-height: 1.5">
+          <div>Copyright 2022 © Ecom - Marketplace Template.</div>
+          <div>
+            Designed by
+            <a href="#" class="text-decoration-none text-info">AliThemes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".lang-option").forEach(function (item) {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            const imgEl = this.querySelector("img");
+            const textEl = this.querySelector("span");
+            const mainBtn = document.getElementById("selectedLanguageBtn");
+
+            if (mainBtn && imgEl && textEl) {
+              const btnImg = mainBtn.querySelector("img");
+              const btnText = mainBtn.querySelector("span");
+              if (btnImg) btnImg.setAttribute("src", imgEl.getAttribute("src"));
+              if (btnText) btnText.textContent = textEl.textContent;
+            }
+          });
+        });
+
+        document.querySelectorAll(".curr-option").forEach(function (item) {
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            const selectedCurrency = this.textContent.trim();
+            const currBtn = document.getElementById("selectedCurrencyBtn");
+
+            if (currBtn) {
+              const textSpan = currBtn.querySelector("span");
+              if (textSpan) {
+                textSpan.textContent = selectedCurrency;
+              } else {
+                currBtn.textContent = selectedCurrency;
+              }
+            }
+          });
+        });
+
+        const megaBtn = document.getElementById("megaCategoriesBtn");
+        const megaPanel = document.getElementById("megaCategoriesPanel");
+        const catItems = document.querySelectorAll(".mega-cat-item");
+        const subPanes = document.querySelectorAll(".mega-sub-pane");
+
+        if (megaBtn && megaPanel) {
+          megaBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            megaPanel.classList.toggle("show");
+          });
+
+          catItems.forEach(function (item) {
+            item.addEventListener("mouseenter", function () {
+              catItems.forEach((el) => el.classList.remove("active"));
+              subPanes.forEach((pane) => pane.classList.remove("active"));
+
+              this.classList.add("active");
+              const targetId = this.getAttribute("data-target");
+              const targetPane = document.getElementById(targetId);
+              if (targetPane) {
+                targetPane.classList.add("active");
+              }
+            });
+          });
+
+          document.addEventListener("click", function (e) {
+            if (!megaPanel.contains(e.target) && !megaBtn.contains(e.target)) {
+              megaPanel.classList.remove("show");
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
